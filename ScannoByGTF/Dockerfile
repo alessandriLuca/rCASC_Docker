@@ -44,11 +44,5 @@ RUN R CMD INSTALL --build /tmp/RSQLite_1.1-2.tar.gz
 
 RUN R CMD INSTALL --build /tmp/refGenome_1.7.3.tar.gz
 
-
-
-
-#[1] refGenome_1.7.3 RSQLite_1.1-2   doBy_4.5-15    
-
-#loaded via a namespace (and not attached):
-#[1] MASS_7.3-47     Matrix_1.2-10   DBI_0.6-1       memoise_1.1.0  
-#[5] Rcpp_0.12.11    grid_3.3.2      digest_0.6.12   lattice_0.20-35
+COPY ./data.table_1.13.4.tar.gz /tmp 
+RUN R CMD INSTALL --build tmp/data.table_1.13.4.tar.gz
