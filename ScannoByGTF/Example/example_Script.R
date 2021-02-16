@@ -1,0 +1,7 @@
+library(rCASC)
+file=paste(getwd(),"testSCumi_mm10.csv",sep="/")
+system("wget http://130.192.119.59/public/testSCumi_mm10.csv.zip")
+system("unzip testSCumi_mm10.csv.zip")
+system("wget ftp://ftp.ensembl.org/pub/release-92/gtf/mus_musculus/Mus_musculus.GRCm38.92.gtf.gz")
+system("gunzip Mus_musculus.GRCm38.92.gtf.gz")
+scannobyGtf(group="docker", file=file,gtf.name="Mus_musculus.GRCm38.92.gtf", biotype="protein_coding",mt=TRUE, ribo.proteins=TRUE, umiXgene=3, riboStart.percentage=0,riboEnd.percentage=100, mitoStart.percentage=0, mitoEnd.percentage=100, thresholdGenes=100)
