@@ -67,4 +67,5 @@ RUN R CMD INSTALL --build /tmp/tmp/argparser_0.6.tar.gz \
 /tmp/tmp/prodlim_2019.11.13.tar.gz \
 /tmp/tmp/mvtnorm_1.0-8.tar.gz \
 /tmp/tmp/multcomp_1.4-8.tar.gz \
-/tmp/tmp/Publish_2018.04.17.tar.gz
+/tmp/tmp/Publish_2018.04.17.tar.gz \
+/tmp/tmp/Rtsne_0.13.tar.gz
