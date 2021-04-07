@@ -1,0 +1,6 @@
+library(rCASC)
+system("wget http://130.192.119.59/public/singlecells_counts.txt.gz")
+system("gzip -d singlecells_counts.txt.gz")
+file=paste(getwd(), "singlecells_counts.txt", sep="/")
+topx(group="docker", file=file, threshold=10000, logged=FALSE, type="expression", separator="\t")
+topx(group="docker", file=file, threshold=10000, logged=FALSE, type="variance", separator="\t")
