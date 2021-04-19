@@ -8,16 +8,18 @@ COPY p7zip_16.02 /tmp/
 RUN apt-get update \
     && apt-get install -y wget \
     && mkdir data \
-    && mkdir /bin/cellranger-5.0.1 \
 	&& apt-get -y install build-essential \
 	&& cd /tmp/ && make \
 	&& make all \
 	&& cp ./bin/7za /bin
 
-COPY cellranger-5.0.1.7z* bin/cellranger-5.0.1/
+COPY cellranger-5.0.1.tar.7z* bin/
 
-RUN cd bin/cellranger-5.0.1/ && 7za -y x "*.7z*" \
-	&& rm /bin/cellranger-5.0.1/cellranger-5.0.1.7z* \
+RUN cd bin/ && 7za -y x "*.7z*" \
+	&& rm /bin/cellranger-5.0.1.tar.7z* \
+	&& tar -xzvf /bin/cellranger-5.0.1.tar.gz -C /bin \
+	&& rm /bin/cellranger-5.0.1.tar.gz \
 	&& cp /bin/cellranger-5.0.1/cellranger /bin \
 	&& chmod 777 /bin/cellranger \
-	&& chmod 777 /home/indexing.sh
+	&& chmod 777 /home/indexing.sh \
+	&& export PATH=/bin/cellranger-5.0.1:$PATH
