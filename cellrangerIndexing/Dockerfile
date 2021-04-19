@@ -19,4 +19,5 @@ COPY cellranger-5.0.1.7z* bin/cellranger-5.0.1/
 RUN cd bin/cellranger-5.0.1/ && 7za -y x "*.7z*" \
 	&& rm /bin/cellranger-5.0.1/cellranger-5.0.1.7z* \
 	&& cp /bin/cellranger-5.0.1/cellranger /bin \
-	&& chmod 744 /bin/cellranger
+	&& chmod 777 /bin/cellranger \
+	&& chmod 777 /home/indexing.sh
