@@ -39,7 +39,7 @@ percentage.mito=c(as.numeric(args[9]),as.numeric(args[10]))# Y
 
 
 
-#setwd("/data/scratch")
+setwd("/data/scratch")
 require("refGenome") || stop("\nMissing refGenome library\n")
   ######
   '%!in%' <- function(x,y)!('%in%'(x,y))
@@ -132,11 +132,11 @@ if(identical(annotation$gene_id, rownames(tmp))){
 }
 
 if(file.type=="txt"){
-  write.table(tmp, paste("annotated_",basename(counts.table), sep=""), sep="\t", col.names=NA)
+  write.table(tmp, paste("annotated_",counts.table, sep=""), sep="\t", col.names=NA)
     write.table(tmp[,filteredCells], paste("filtered_annotated_",counts.table, sep=""), sep="\t", col.names=NA)
 
 }else{
-   write.table(tmp, paste("annotated_",basename(counts.table), sep=""), sep=",", col.names=NA)
+   write.table(tmp, paste("annotated_",counts.table, sep=""), sep=",", col.names=NA)
   write.table(tmp[,filteredCells], paste("filtered_annotated_",counts.table, sep=""), sep=",", col.names=NA)
 
 }
