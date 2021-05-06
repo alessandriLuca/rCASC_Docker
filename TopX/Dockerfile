@@ -3,7 +3,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 LABEL maintainer="sandro.contaldo@edu.unito.it"
 
 COPY ./top.R /bin/top.R
-COPY ["./R-3.4.4", "./limma_3.34.9.tar.gz", "./locfit_1.5-9.1.tar.gz", "./edgeR_3.20.9.tar.gz", "./argparser_0.4.tar.gz", "./Rcpp_0.12.6.tar.gz", "/tmp"]
+COPY ["./R-3.4.4", "./limma_3.34.9.tar.gz", "./locfit_1.5-9.1.tar.gz", "./edgeR_3.20.9.tar.gz", "./argparser_0.4.tar.gz", "./Rcpp_0.12.6.tar.gz", "/tmp/"]
 
 RUN apt-get update \
     && apt-get install -y build-essential \
