@@ -61,4 +61,4 @@ RUN R CMD INSTALL --build /tmp/refGenome_1.7.3.tar.gz
 
 COPY ./data.table_1.13.4.tar.gz /tmp 
 RUN R CMD INSTALL --build tmp/data.table_1.13.4.tar.gz
-RUN mkdir /data/scratch
+RUN mkdir -p /data/scratch
