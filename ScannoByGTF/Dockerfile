@@ -30,9 +30,9 @@ RUN cd /tmp/ && 7za -y x "*.7z*"
 RUN tar -xzvf /tmp/R-3.3.2/R-3.3.2.tar.gz
 COPY configure /R-3.3.2/configure
 
-RUN cd /R-3.3.2/ && ./configure
-RUN make
-RUN make install
+RUN cd /R-3.3.2/ && ./configure && make && make install
+#RUN make
+#RUN make install
 COPY ./scannoByGtf.R /bin/.scannoByGtf.R
 COPY ./doBy_4.5-15.tar.gz /tmp
 COPY ./RSQLite_1.1-2.tar.gz /tmp
