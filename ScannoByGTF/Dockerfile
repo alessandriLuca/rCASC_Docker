@@ -18,6 +18,7 @@ RUN apt-get -y install libbz2-dev
 RUN apt-get -y install libpcre3-dev
 RUN aptitude -y install libreadline-dev
 RUN apt-get -y install libcurl4-openssl-dev
+RUN apt-get -y install libcurl4-openssl-dev
 
 
 COPY p7zip_16.02 /tmp/
@@ -27,12 +28,9 @@ RUN rm -r /tmp/*
 COPY R-3.3.2.7z* /tmp/
 RUN cd /tmp/ && 7za -y x "*.7z*" 
 RUN tar -xzvf /tmp/R-3.3.2/R-3.3.2.tar.gz
-#COPY configure /tmp/R-3.3.2/R-3.3.2/configure
+COPY configure /R-3.3.2/configure
 
-
-
-
-RUN cd /tmp/R-3.3.2/R-3.3.2/ && configure
+RUN cd /R-3.3.2/ && ./configure
 RUN make
 RUN make install
 COPY ./scannoByGtf.R /bin/.scannoByGtf.R
