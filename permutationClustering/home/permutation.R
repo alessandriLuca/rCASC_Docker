@@ -91,8 +91,8 @@ write.table(clustering.output[,2],paste("./Permutation/clusterB_",index,".",form
 
 write.table(killedCell,paste("./Permutation/killC_",index,".",format,sep=""),sep=separator)
 rm(list=setdiff(ls(),"index"))
-dir.create("./memory")
-system(paste("cat /proc/meminfo >  ./memory/",index,".txt",sep=""))
+#dir.create("./memory")
+#system(paste("cat /proc/meminfo >  ./memory/",index,".txt",sep=""))
 
 
 
