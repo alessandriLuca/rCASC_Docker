@@ -19,7 +19,6 @@ RUN cd bin/ && 7za -y x "*.7z*" \
 	&& rm /bin/cellranger-5.0.1.tar.7z* \
 	&& tar -xzvf /bin/cellranger-5.0.1.tar.gz -C /bin \
 	&& rm /bin/cellranger-5.0.1.tar.gz \
-	&& cp /bin/cellranger-5.0.1/cellranger /bin \
+	&& cp -a /bin/cellranger-5.0.1/. /bin \
 	&& chmod 777 /bin/cellranger \
-	&& chmod 777 /home/indexing.sh \
-	&& export PATH=/bin/cellranger-5.0.1:$PATH
+	&& chmod 777 /home/indexing.sh
