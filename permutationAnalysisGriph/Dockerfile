@@ -1,7 +1,7 @@
 
 
-FROM library/ubuntu as UBUNTU_BASE
-MAINTAINER g.pia91@gmail.com
+FROM library/ubuntu:18.04 as UBUNTU_BASE
+MAINTAINER alessandri.luca1991@gmail.com
 ARG DEBIAN_FRONTEND=noninteractive
 COPY ./R-3.4.4 /tmp
 COPY ./home/* /home/
@@ -247,3 +247,8 @@ RUN R -e "install.packages('vioplot',dependencies=TRUE, repos='http://cran.rstud
 RUN R -e "install.packages('argparser',dependencies=TRUE, repos='http://cran.rstudio.com/')"
 
 RUN R -e "install.packages('Publish',dependencies=TRUE, repos='http://cran.rstudio.com/')"
+
+RUN apt-get update
+RUN apt-get install tree
+RUN mkdir -p /data/
+RUN mkdir -p /scratch/

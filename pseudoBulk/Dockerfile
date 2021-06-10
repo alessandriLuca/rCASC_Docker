@@ -1,4 +1,4 @@
-FROM library/ubuntu as UBUNTU_BASE
+FROM library/ubuntu:18.04 as UBUNTU_BASE
 MAINTAINER alessandri.luca1991@gmail.com
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
@@ -31,3 +31,7 @@ RUN pip3 install /tmp/home/user/dockerFile/neuralnetworkmet/files/matplotlib-3.3
 RUN pip3 install /tmp/home/user/dockerFile/neuralnetworkmet/files/scikit_learn-0.24.1-cp38-cp38-manylinux2010_x86_64.whl
 RUN pip3 install /tmp/home/user/dockerFile/neuralnetworkmet/files/pandas-1.2.1-cp38-cp38-manylinux1_x86_64.whl
 COPY home/* /home/
+RUN mkdir -p /data/
+RUN mkdir -p /scratch/
+RUN apt-get update
+RUN apt-get install tree

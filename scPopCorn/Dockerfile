@@ -1,4 +1,4 @@
-FROM library/ubuntu as UBUNTU_BASE
+FROM library/ubuntu:18.04 as UBUNTU_BASE
 MAINTAINER alessandri.luca1991@gmail.com
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
@@ -68,3 +68,7 @@ RUN pip3 install /tmp/install_files/cvxpy-1.1.7.tar.gz
 RUN pip3 install /tmp/install_files/scpopcorn-0.1.20-py3-none-any.whl
 ADD /home/* /home
 RUN rm -r /tmp
+RUN mkdir -p /data/
+RUN mkdir -p /scratch/
+RUN apt-get update
+RUN apt-get install tree

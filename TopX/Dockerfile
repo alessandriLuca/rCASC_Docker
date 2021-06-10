@@ -1,4 +1,4 @@
-FROM library/ubuntu as UBUNTU_BASE
+FROM library/ubuntu:18.04 as UBUNTU_BASE
 ARG DEBIAN_FRONTEND=noninteractive
 LABEL maintainer="sandro.contaldo@edu.unito.it"
 
@@ -23,3 +23,7 @@ RUN R CMD INSTALL --build /tmp/limma_3.34.9.tar.gz \
     && R CMD INSTALL --build /tmp/argparser_0.4.tar.gz \
     && R CMD INSTALL --build /tmp/Rcpp_0.12.6.tar.gz \
     && R CMD INSTALL --build /tmp/edgeR_3.20.9.tar.gz
+RUN mkdir -p /data/
+RUN mkdir -p /scratch/
+RUN apt-get update
+RUN apt-get install tree

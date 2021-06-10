@@ -1,4 +1,4 @@
-FROM library/ubuntu as UBUNTU_BASE
+FROM library/ubuntu:18.04 as UBUNTU_BASE
 MAINTAINER alessandri.luca1991@gmail.com
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -62,3 +62,6 @@ RUN R CMD INSTALL --build /tmp/refGenome_1.7.3.tar.gz
 COPY ./data.table_1.13.4.tar.gz /tmp 
 RUN R CMD INSTALL --build tmp/data.table_1.13.4.tar.gz
 RUN mkdir -p /data/scratch
+RUN mkdir -p /scratch
+RUN apt-get update
+RUN apt-get install tree

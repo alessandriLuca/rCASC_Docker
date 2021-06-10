@@ -22,3 +22,7 @@ RUN cd bin/ && 7za -y x "*.7z*" \
 	&& cp -a /bin/cellranger-5.0.1/. /bin \
 	&& chmod 777 /bin/cellranger \
 	&& chmod 777 /home/indexing.sh
+RUN mkdir -p /data/
+RUN mkdir -p /scratch/
+RUN apt-get update
+RUN apt-get install tree

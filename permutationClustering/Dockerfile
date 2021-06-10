@@ -1,4 +1,4 @@
-FROM library/ubuntu as UBUNTU_BASE
+FROM library/ubuntu:18.04 as UBUNTU_BASE
 MAINTAINER alessandri.luca1991@gmail.com
 ARG DEBIAN_FRONTEND=noninteractive
 COPY ./R-3.3.1 /tmp
@@ -71,3 +71,5 @@ RUN R CMD INSTALL --build /tmp/tmp/argparser_0.6.tar.gz \
 /tmp/tmp/Rtsne_0.13.tar.gz
 RUN apt-get update
 RUN apt-get install tree
+RUN mkdir -p /data/
+RUN mkdir -p /scratch/

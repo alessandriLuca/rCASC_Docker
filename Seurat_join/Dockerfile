@@ -1,7 +1,6 @@
 
-
-FROM library/ubuntu as UBUNTU_BASE
-MAINTAINER g.pia91@gmail.com
+FROM library/ubuntu:18.04 as UBUNTU_BASE
+MAINTAINER alessandri.luca1991@gmail.com
 ARG DEBIAN_FRONTEND=noninteractive
 COPY ./R-3.6.0 /tmp
 RUN apt-get update
@@ -196,5 +195,8 @@ RUN R CMD INSTALL --build /tmp/install_files/spatstat.utils_1.20-2.tar.gz \
 	RUN R CMD INSTALL --build /tmp/install_files/argparser_0.6.tar.gz
 
 	COPY ["pre_processing.R","/home/"]
-
+RUN mkdir -p /data/
+RUN mkdir -p /scratch/
+RUN apt-get update
+RUN apt-get install tree
 
