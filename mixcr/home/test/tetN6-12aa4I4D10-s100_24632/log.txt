@@ -1,0 +1,136 @@
+#Call: /usr/cbs/bio/src/gibbscluster-2.0/GibbsCluster-2.0e_WEB.pl -H /tools/bin/R-3.1.2 -G /usr/cbs/bio/src/seq2logo-2.0/Seq2Logo.py -k 5 -Z 50000 -f /usr/opt/www/webface/tmp/server/GibbsCluster/60DB85DA00005EF9A6D3A4A0/file.0 -g 6 -l 12 -t 1.5 -i 10 -n 20 -D 4 -I 4 -s 100 -r 20 -u 10 -j 0 -b 0.8 -q 5 -S 100 -P tetN6-12aa4I4D10-s100 -c 0 -z 2
+#Tue Jun 29 22:42:22 2021
+#Session ID: 24632
+#Run name: tetN6-12aa4I4D10-s100_24632
+#Read 4156 unique sequences (removed 6 shorter than motif length)
+##### Settings: #####
+#Shift moves and cluster moves are activated
+#Number of clusters: 6
+#Motif length: 12
+#Initial MC temperture: 1.5
+#Number of temperature steps: 20
+#Number of iterations x Sequence x Tstep: 10
+#Max insertion length: 4
+#Max deletion length: 4
+#Interval between Indel moves: 10
+#Interval between Single Peptide moves: 20
+#Interval between Phase Shift moves: 100
+#Number of initial seeds: 100
+#Penalty lambda: 0.8
+#Weight on small clusters: 5
+#Preference for hydrophobic P1: 0
+#Sequence weighting type: 0
+#Use trash cluster to remove outliers: 0
+#### Running Gibbs clustering...
+#Clustering with 6 groups, seed number 1
+#Clustering with 6 groups, seed number 2
+#Clustering with 6 groups, seed number 3
+#Clustering with 6 groups, seed number 4
+#Clustering with 6 groups, seed number 5
+#Clustering with 6 groups, seed number 6
+#Clustering with 6 groups, seed number 7
+#Clustering with 6 groups, seed number 8
+#Clustering with 6 groups, seed number 9
+#Clustering with 6 groups, seed number 10
+#Clustering with 6 groups, seed number 11
+#Clustering with 6 groups, seed number 12
+#Clustering with 6 groups, seed number 13
+#Clustering with 6 groups, seed number 14
+#Clustering with 6 groups, seed number 15
+#Clustering with 6 groups, seed number 16
+#Clustering with 6 groups, seed number 17
+#Clustering with 6 groups, seed number 18
+#Clustering with 6 groups, seed number 19
+#Clustering with 6 groups, seed number 20
+#Clustering with 6 groups, seed number 21
+#Clustering with 6 groups, seed number 22
+#Clustering with 6 groups, seed number 23
+#Clustering with 6 groups, seed number 24
+#Clustering with 6 groups, seed number 25
+#Clustering with 6 groups, seed number 26
+#Clustering with 6 groups, seed number 27
+#Clustering with 6 groups, seed number 28
+#Clustering with 6 groups, seed number 29
+#Clustering with 6 groups, seed number 30
+#Clustering with 6 groups, seed number 31
+#Clustering with 6 groups, seed number 32
+#Clustering with 6 groups, seed number 33
+#Clustering with 6 groups, seed number 34
+#Clustering with 6 groups, seed number 35
+#Clustering with 6 groups, seed number 36
+#Clustering with 6 groups, seed number 37
+#Clustering with 6 groups, seed number 38
+#Clustering with 6 groups, seed number 39
+#Clustering with 6 groups, seed number 40
+#Clustering with 6 groups, seed number 41
+#Clustering with 6 groups, seed number 42
+#Clustering with 6 groups, seed number 43
+#Clustering with 6 groups, seed number 44
+#Clustering with 6 groups, seed number 45
+#Clustering with 6 groups, seed number 46
+#Clustering with 6 groups, seed number 47
+#Clustering with 6 groups, seed number 48
+#Clustering with 6 groups, seed number 49
+#Clustering with 6 groups, seed number 50
+#Clustering with 6 groups, seed number 51
+#Clustering with 6 groups, seed number 52
+#Clustering with 6 groups, seed number 53
+#Clustering with 6 groups, seed number 54
+#Clustering with 6 groups, seed number 55
+#Clustering with 6 groups, seed number 56
+#Clustering with 6 groups, seed number 57
+#Clustering with 6 groups, seed number 58
+#Clustering with 6 groups, seed number 59
+#Clustering with 6 groups, seed number 60
+#Clustering with 6 groups, seed number 61
+#Clustering with 6 groups, seed number 62
+#Clustering with 6 groups, seed number 63
+#Clustering with 6 groups, seed number 64
+#Clustering with 6 groups, seed number 65
+#Clustering with 6 groups, seed number 66
+#Clustering with 6 groups, seed number 67
+#Clustering with 6 groups, seed number 68
+#Clustering with 6 groups, seed number 69
+#Clustering with 6 groups, seed number 70
+#Clustering with 6 groups, seed number 71
+#Clustering with 6 groups, seed number 72
+#Clustering with 6 groups, seed number 73
+#Clustering with 6 groups, seed number 74
+#Clustering with 6 groups, seed number 75
+#Clustering with 6 groups, seed number 76
+#Clustering with 6 groups, seed number 77
+#Clustering with 6 groups, seed number 78
+#Clustering with 6 groups, seed number 79
+#Clustering with 6 groups, seed number 80
+#Clustering with 6 groups, seed number 81
+#Clustering with 6 groups, seed number 82
+#Clustering with 6 groups, seed number 83
+#Clustering with 6 groups, seed number 84
+#Clustering with 6 groups, seed number 85
+#Clustering with 6 groups, seed number 86
+#Clustering with 6 groups, seed number 87
+#Clustering with 6 groups, seed number 88
+#Clustering with 6 groups, seed number 89
+#Clustering with 6 groups, seed number 90
+#Clustering with 6 groups, seed number 91
+#Clustering with 6 groups, seed number 92
+#Clustering with 6 groups, seed number 93
+#Clustering with 6 groups, seed number 94
+#Clustering with 6 groups, seed number 95
+#Clustering with 6 groups, seed number 96
+#Clustering with 6 groups, seed number 97
+#Clustering with 6 groups, seed number 98
+#Clustering with 6 groups, seed number 99
+#Clustering with 6 groups, seed number 100
+#Clustering complete!
+### Determining seeds with highest KLD...
+#Best 6 groups, seed 19
+###Parsing result files...
+#RESULTS for 6 CLUSTERS
+#6 Final Average KLD: 25.271624
+#6	1	958	23.196
+#6	2	114	29.397
+#6	3	1542	25.605
+#6	4	710	20.188
+#6	5	439	33.328
+#6	6	393	28.010

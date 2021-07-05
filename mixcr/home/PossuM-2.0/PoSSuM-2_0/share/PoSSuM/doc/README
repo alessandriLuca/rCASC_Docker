@@ -1,0 +1,62 @@
+PoSSuM - Fast and Sensitive Matching of Position Specific Scoring Matrices
+Using Enhanced Suffix Arrays
+Version 2.0 (June 2009)
+
+
+o About this software...
+	PoSSuM contains implementations of the ESAsearch and LazyDistrib 
+	algorithms described in:
+
+	M. Beckstette, R. Homann, R. Giegerich, S. Kurtz; 
+	Fast index based algorithms and software for matching position
+	specific scoring matrices. BMC Bioinformatics, 7:389, 2006.
+
+	Basically, you give PoSSuM an enhanced suffix array of your sequences,
+	built with mkESA (http://bibiserv.techfak.uni-bielefeld.de/mkesa/)
+	or mkvtree (http://www.vmatch.de/), a collection of position specific
+	scoring matrices, and a threshold as input; it will return all 
+	matches of the specified PSSMs on the provided sequences.
+
+o Files included in this package are
+	bin/possumsearch
+	bin/possumdist
+	bin/possumfreqs
+	bin/psfamsearch.pl
+	share/PoSSuM/doc/README
+	share/PoSSuM/doc/license.txt
+	share/PoSSuM/examples/demo.fas
+	share/PoSSuM/examples/demo.lib
+	share/PoSSuM/examples/demo_mkesa.sh
+	share/PoSSuM/examples/demo_mkvtree.sh
+	share/PoSSuM/examples/results.txt
+
+	Optionally: a PDF and/or PS containing the PoSSuM user manual in
+	            share/PoSSuM/doc/.
+
+o Getting PoSSuM
+	WWW home: http://bibiserv.techfak.uni-bielefeld.de/possumsearch/
+
+o Using PoSSuM
+	See the manual file PoSSuM-2_0.pdf for detailed instructions.
+
+o Getting started with PoSSuM
+	See the demo files demo_mkesa.sh and demo_mkvtree.sh in the examples
+	directory for a quick introduction to how to use the programs of the
+	PoSSuM package.
+
+o Reporting bugs
+	These programs are under active development. Though this
+	release has been tested and appears to be stable, bugs may crop up. 
+	Please report suggestions, comments, and bug reports to
+	rhomann@techfak.uni-bielefeld.de
+
+
+Michael Beckstette (mbeckste@techfak.uni-bielefeld.de)
+
+
+Dipl.-Inform. Michael Beckstette
+AG-PI / Technische Fakultaet
+Universitaet Bielefeld
+Postfach 100131
+D-33501 BIELEFELD
+Germany

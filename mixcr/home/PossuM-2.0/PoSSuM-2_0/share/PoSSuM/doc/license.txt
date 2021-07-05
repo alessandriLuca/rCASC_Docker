@@ -1,0 +1,35 @@
+PossumSearch License Agreement
+October 1, 2004
+This document is the license agreement for the PossumSearch Software Package. There is no distribution fee for PossumSearch for non commercial research institutions. Commercial research institutions who want to use PossumSearch should directly contact Stefan Kurtz via Email at kurtz@zbh.uni-hamburg.de
+
+Universitaet Hamburg (LICENSOR), as sole holder of all the proprietary rights to PossumSearch grants to the licensee as defined in paragraph 11 (LICENSEE) a perpetual, non-exclusive, nonassignable, personal license to use the proprietary PossumSearch software, subject to the conditions set forth below.
+
+1. Restricted License: Use of PossumSearch, or any part thereof, or any software derived in whole or in part therefrom, is restricted to use by LICENSEE only, and is limited to the following uses unless LICENSOR agrees otherwise by prior written agreement.
+
+- LICENSEE is authorized to use PossumSearch on all computers at the separate geographic locations itemized in paragraph 11 below (the SITES) and at no other locations. The SITES must include all locations from which remote (telephone or network) access will be made.
+
+- LICENSEE may not copy PossumSearch, or any part thereof in any form, except for backup or archiving purposes, and for the purpose of distributing it to computers at the given SITES. LICENSEE agrees not to remove or destroy any proprietary markings or confidential legends placed upon or contained within PossumSearch and any related materials.
+
+- LICENSEE may not sell, rent, sublicense, or otherwise distribute in any manner whatsoever PossumSearch, or any part thereof, or any software derived in whole or in part therefrom, without the prior written approval of LICENSOR.
+
+
+2. Title: The AGREEMENT grants LICENSEE no title or right of ownership in PossumSearch, and no property rights in any copyrighted materials delivered hereunder.
+
+3. Non-Disclosure: LICENSEE agrees to receive and keep PossumSearch in confidence and not to disclose it to any third party without the express written consent of LICENSOR.
+
+
+4. Proper Credit and Recognition: Appropriate credits consist of including in any documentation and publications about research using PossumSearch a reference to the following publication:
+
+M. Beckstette, D. Strothmann, R. Homann, R. Giegerich, S. Kurtz; Fast and Sensitive Matching of Position Specific Scoring Matrices using Enhanced Suffix Arrays, Proc. German Conference on Bioinformatics, 2004, GI-Edition, Lecture Notes in Informatics, volume P-53, pages 53-64
+
+5. Disclaimer of Warranty: LICENSOR provides PossumSearch on an as is basis. LICENSOR does not warrant its validity of performance, efficiency, or suitability, nor does LICENSOR warrant that PossumSearch is free from errors. All warranties, including without limitation, any warranty or merchantability or fitness for a particular purpose, are hereby excluded.
+
+6. Lack of Maintenance Services: LICENSEE understands and agrees that LICENSOR (or any other person or entity with proprietary rights in the software licensed hereunder) is under no obligation to provide either maintenance services, update services, notices of latent defects, or correction of defects for PossumSearch. LICENSOR nevertheless reserves the right to update, modify, or discontinue this software at any time.
+
+7. Limitation of Liability, Indemnification: Even if advised of the possibility of such damages, under no circumstances shall LICENSOR (or any other person or entity with proprietary rights in the software licensed hereunder) be liable to LICENSEE or any third party for direct, indirect, or consequential damages of any character, including, without limitation, loss of profits, loss of use, loss of good will, or computer failure or malfunction, regardless of the nature of the claim or action, whether in negligence or other tort, breach of contract, product liability, or otherwise. LICENSEE agrees to indemnify LICENSOR (or any other person or entity with proprietary rights in the software licensed hereunder) for any and all liability it may incur to third parties resulting from LICENSEE's use of PossumSearch.
+
+8. Applicable Law: This AGREEMENT is deemed to be made under, and shall be governed by the laws of the Federal Republic of Germany. Both parties consent to jurisdiction in the Federal Republic of Germany. German law applies to this AGREEMENT without giving effect to its conflict of laws (IPR) provisions.
+
+9. Binding Effect Agreement: This AGREEMENT shall be binding upon and inure to the benefit of the heirs, successors and assigns of LICENSEE, but LICENSEE may not assign this AGREEMENT or any of its rights or obligations hereunder without the prior written approval of LICENSOR.
+
+10. Entire Agreement: This AGREEMENT represents the complete and exclusive statement of the agreements between the parties relating to the licensing of PossumSearch, and supersedes all prior and simultaneous agreements and representations between them relating to such licensing. This AGREEMENT may not be modified except with the written approval of the LICENSOR.

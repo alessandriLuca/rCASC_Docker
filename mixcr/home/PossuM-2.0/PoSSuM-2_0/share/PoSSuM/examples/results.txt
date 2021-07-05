@@ -1,0 +1,1080 @@
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA1', group 0, position 0 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA1'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 80, length 12, threshold 381, score range -390..454
+  score 392, MSS 9.265403e-01, p-value 3.523121e-11, E-value 5.214220e-08
+  matching sequence: `GDRHYNDDKAIV'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA2', group 0, position 1 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA2'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 105, length 19, threshold 497, score range -630..840
+  score 674, MSS 8.870748e-01, p-value 4.108192e-16, E-value 6.080123e-13
+  matching sequence: `IGEEKGRGTKNKLLRNFGM'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA3', group 0, position 2 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA3'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 126, length 17, threshold 435, score range -557..703
+  score 546, MSS 8.753968e-01, p-value 2.426451e-14, E-value 3.591148e-11
+  matching sequence: `PCGYRKALKMAKFAEKF'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA4', group 0, position 3 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA4'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 145, length 14, threshold 427, score range -491..646
+  score 494, MSS 8.663149e-01, p-value 9.402762e-13, E-value 1.391609e-09
+  matching sequence: `PILMLVDTAGAYPG'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA5', group 0, position 4 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA5'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 161, length 14, threshold 409, score range -471..528
+  score 507, MSS 9.789790e-01, p-value 2.394307e-15, E-value 3.543575e-12
+  matching sequence: `AEERGQSEAIAKNL'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA6', group 0, position 5 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA6'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 189, length 10, threshold 452, score range -378..502
+  score 502, MSS 1.000000e+00, p-value 1.641506e-12, E-value 2.429428e-09
+  matching sequence: `IGEGGSGGAL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA1', group 1, position 0 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA1'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 20, length 20, threshold 565, score range -703..957
+  score 918, MSS 9.765060e-01, p-value 4.083122e-22, E-value 6.043020e-19
+  matching sequence: `FINNLQVAFIKVDNVVASFD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA2', group 1, position 1 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA2'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 47, length 21, threshold 583, score range -741..1057
+  score 978, MSS 9.560623e-01, p-value 5.101853e-23, E-value 7.550743e-20
+  matching sequence: `DKNDRDNRQAFEKISQLREEF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA3', group 1, position 2 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA3'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 77, length 20, threshold 610, score range -714..1015
+  score 896, MSS 9.311741e-01, p-value 1.229372e-18, E-value 1.819471e-15
+  matching sequence: `KKNQYFSSFISKSNDLIDKD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA4', group 1, position 3 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA4'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 245, length 15, threshold 469, score range -484..735
+  score 688, MSS 9.614438e-01, p-value 2.361199e-18, E-value 3.494575e-15
+  matching sequence: `TTTTDIQSLPPEARD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA5', group 1, position 4 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA5'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 325, length 20, threshold 550, score range -674..1062
+  score 962, MSS 9.423963e-01, p-value 5.042094e-22, E-value 7.462300e-19
+  matching sequence: `NGGPEARHDWNATVGYKNQR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA6', group 1, position 5 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA6'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 369, length 18, threshold 564, score range -639..964
+  score 964, MSS 1.000000e+00, p-value 6.719015e-23, E-value 9.944142e-20
+  matching sequence: `KGINNPSFYLYKEDQLTG'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA7', group 1, position 6 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA7'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 419, length 20, threshold 586, score range -693..968
+  score 968, MSS 1.000000e+00, p-value 5.615858e-24, E-value 8.311470e-21
+  matching sequence: `KEKEKFQNEIEDFQKDSKAY'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA8', group 1, position 7 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA8'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 607, length 18, threshold 561, score range -600..873
+  score 832, MSS 9.721656e-01, p-value 6.778105e-20, E-value 1.003159e-16
+  matching sequence: `YDEVKQAQKDLEKSLKKR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 705, length 18, threshold 606, score range -608..936
+  score 646, MSS 8.121762e-01, p-value 1.266045e-11, E-value 1.873747e-08
+  matching sequence: `DEFKNGKNKDFSKAEETL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 750, length 18, threshold 606, score range -608..936
+  score 936, MSS 1.000000e+00, p-value 4.529179e-21, E-value 6.703185e-18
+  matching sequence: `NEFKNGKNKDFSKVTQAK'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA10', group 1, position 9 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA10'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1100, length 16, threshold 573, score range -558..873
+  score 873, MSS 1.000000e+00, p-value 4.074747e-20, E-value 6.030626e-17
+  matching sequence: `GFNQKNMKDYSDSFKF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA11', group 1, position 10 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA11'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1151, length 15, threshold 551, score range -514..802
+  score 784, MSS 9.863222e-01, p-value 3.469844e-18, E-value 5.135369e-15
+  matching sequence: `EHGVKNTNTKGGFQK'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA1', group 0, position 0 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA1'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 80, length 12, threshold 381, score range -390..454
+  score 392, MSS 9.265403e-01, p-value 3.523121e-11, E-value 5.214220e-08
+  matching sequence: `GDRHYNDDKAIV'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA2', group 0, position 1 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA2'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 105, length 19, threshold 497, score range -630..840
+  score 674, MSS 8.870748e-01, p-value 4.108192e-16, E-value 6.080123e-13
+  matching sequence: `IGEEKGRGTKNKLLRNFGM'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA3', group 0, position 2 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA3'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 126, length 17, threshold 435, score range -557..703
+  score 546, MSS 8.753968e-01, p-value 2.426451e-14, E-value 3.591148e-11
+  matching sequence: `PCGYRKALKMAKFAEKF'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA4', group 0, position 3 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA4'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 145, length 14, threshold 427, score range -491..646
+  score 494, MSS 8.663149e-01, p-value 9.402762e-13, E-value 1.391609e-09
+  matching sequence: `PILMLVDTAGAYPG'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA5', group 0, position 4 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA5'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 161, length 14, threshold 409, score range -471..528
+  score 507, MSS 9.789790e-01, p-value 2.394307e-15, E-value 3.543575e-12
+  matching sequence: `AEERGQSEAIAKNL'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA6', group 0, position 5 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA6'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 189, length 10, threshold 452, score range -378..502
+  score 502, MSS 1.000000e+00, p-value 1.641506e-12, E-value 2.429428e-09
+  matching sequence: `IGEGGSGGAL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA1', group 1, position 0 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA1'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 20, length 20, threshold 565, score range -703..957
+  score 918, MSS 9.765060e-01, p-value 4.083122e-22, E-value 6.043020e-19
+  matching sequence: `FINNLQVAFIKVDNVVASFD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA2', group 1, position 1 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA2'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 47, length 21, threshold 583, score range -741..1057
+  score 978, MSS 9.560623e-01, p-value 5.101853e-23, E-value 7.550743e-20
+  matching sequence: `DKNDRDNRQAFEKISQLREEF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA3', group 1, position 2 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA3'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 77, length 20, threshold 610, score range -714..1015
+  score 896, MSS 9.311741e-01, p-value 1.229372e-18, E-value 1.819471e-15
+  matching sequence: `KKNQYFSSFISKSNDLIDKD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA4', group 1, position 3 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA4'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 245, length 15, threshold 469, score range -484..735
+  score 688, MSS 9.614438e-01, p-value 2.361199e-18, E-value 3.494575e-15
+  matching sequence: `TTTTDIQSLPPEARD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA5', group 1, position 4 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA5'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 325, length 20, threshold 550, score range -674..1062
+  score 962, MSS 9.423963e-01, p-value 5.042094e-22, E-value 7.462300e-19
+  matching sequence: `NGGPEARHDWNATVGYKNQR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA6', group 1, position 5 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA6'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 369, length 18, threshold 564, score range -639..964
+  score 964, MSS 1.000000e+00, p-value 6.719015e-23, E-value 9.944142e-20
+  matching sequence: `KGINNPSFYLYKEDQLTG'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA7', group 1, position 6 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA7'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 419, length 20, threshold 586, score range -693..968
+  score 968, MSS 1.000000e+00, p-value 5.615858e-24, E-value 8.311470e-21
+  matching sequence: `KEKEKFQNEIEDFQKDSKAY'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA8', group 1, position 7 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA8'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 607, length 18, threshold 561, score range -600..873
+  score 832, MSS 9.721656e-01, p-value 6.778105e-20, E-value 1.003159e-16
+  matching sequence: `YDEVKQAQKDLEKSLKKR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 705, length 18, threshold 606, score range -608..936
+  score 646, MSS 8.121762e-01, p-value 1.266045e-11, E-value 1.873747e-08
+  matching sequence: `DEFKNGKNKDFSKAEETL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 750, length 18, threshold 606, score range -608..936
+  score 936, MSS 1.000000e+00, p-value 4.529179e-21, E-value 6.703185e-18
+  matching sequence: `NEFKNGKNKDFSKVTQAK'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA10', group 1, position 9 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA10'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1100, length 16, threshold 573, score range -558..873
+  score 873, MSS 1.000000e+00, p-value 4.074747e-20, E-value 6.030626e-17
+  matching sequence: `GFNQKNMKDYSDSFKF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA11', group 1, position 10 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA11'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1151, length 15, threshold 551, score range -514..802
+  score 784, MSS 9.863222e-01, p-value 3.469844e-18, E-value 5.135369e-15
+  matching sequence: `EHGVKNTNTKGGFQK'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA1', group 0, position 0 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA1'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 80, length 12, threshold 381, score range -390..454
+  score 392, MSS 9.265403e-01, p-value 3.523121e-11, E-value 5.214220e-08
+  matching sequence: `GDRHYNDDKAIV'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA2', group 0, position 1 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA2'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 105, length 19, threshold 497, score range -630..840
+  score 674, MSS 8.870748e-01, p-value 4.108192e-16, E-value 6.080123e-13
+  matching sequence: `IGEEKGRGTKNKLLRNFGM'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA3', group 0, position 2 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA3'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 126, length 17, threshold 435, score range -557..703
+  score 546, MSS 8.753968e-01, p-value 2.426451e-14, E-value 3.591148e-11
+  matching sequence: `PCGYRKALKMAKFAEKF'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA4', group 0, position 3 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA4'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 145, length 14, threshold 427, score range -491..646
+  score 494, MSS 8.663149e-01, p-value 9.402762e-13, E-value 1.391609e-09
+  matching sequence: `PILMLVDTAGAYPG'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA5', group 0, position 4 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA5'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 161, length 14, threshold 409, score range -471..528
+  score 507, MSS 9.789790e-01, p-value 2.394307e-15, E-value 3.543575e-12
+  matching sequence: `AEERGQSEAIAKNL'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA6', group 0, position 5 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA6'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 189, length 10, threshold 452, score range -378..502
+  score 502, MSS 1.000000e+00, p-value 1.641506e-12, E-value 2.429428e-09
+  matching sequence: `IGEGGSGGAL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA1', group 1, position 0 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA1'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 20, length 20, threshold 565, score range -703..957
+  score 918, MSS 9.765060e-01, p-value 4.083122e-22, E-value 6.043020e-19
+  matching sequence: `FINNLQVAFIKVDNVVASFD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA2', group 1, position 1 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA2'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 47, length 21, threshold 583, score range -741..1057
+  score 978, MSS 9.560623e-01, p-value 5.101853e-23, E-value 7.550743e-20
+  matching sequence: `DKNDRDNRQAFEKISQLREEF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA3', group 1, position 2 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA3'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 77, length 20, threshold 610, score range -714..1015
+  score 896, MSS 9.311741e-01, p-value 1.229372e-18, E-value 1.819471e-15
+  matching sequence: `KKNQYFSSFISKSNDLIDKD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA4', group 1, position 3 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA4'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 245, length 15, threshold 469, score range -484..735
+  score 688, MSS 9.614438e-01, p-value 2.361199e-18, E-value 3.494575e-15
+  matching sequence: `TTTTDIQSLPPEARD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA5', group 1, position 4 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA5'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 325, length 20, threshold 550, score range -674..1062
+  score 962, MSS 9.423963e-01, p-value 5.042094e-22, E-value 7.462300e-19
+  matching sequence: `NGGPEARHDWNATVGYKNQR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA6', group 1, position 5 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA6'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 369, length 18, threshold 564, score range -639..964
+  score 964, MSS 1.000000e+00, p-value 6.719015e-23, E-value 9.944142e-20
+  matching sequence: `KGINNPSFYLYKEDQLTG'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA7', group 1, position 6 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA7'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 419, length 20, threshold 586, score range -693..968
+  score 968, MSS 1.000000e+00, p-value 5.615858e-24, E-value 8.311470e-21
+  matching sequence: `KEKEKFQNEIEDFQKDSKAY'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA8', group 1, position 7 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA8'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 607, length 18, threshold 561, score range -600..873
+  score 832, MSS 9.721656e-01, p-value 6.778105e-20, E-value 1.003159e-16
+  matching sequence: `YDEVKQAQKDLEKSLKKR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 705, length 18, threshold 606, score range -608..936
+  score 646, MSS 8.121762e-01, p-value 1.266045e-11, E-value 1.873747e-08
+  matching sequence: `DEFKNGKNKDFSKAEETL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 750, length 18, threshold 606, score range -608..936
+  score 936, MSS 1.000000e+00, p-value 4.529179e-21, E-value 6.703185e-18
+  matching sequence: `NEFKNGKNKDFSKVTQAK'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA10', group 1, position 9 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA10'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1100, length 16, threshold 573, score range -558..873
+  score 873, MSS 1.000000e+00, p-value 4.074747e-20, E-value 6.030626e-17
+  matching sequence: `GFNQKNMKDYSDSFKF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA11', group 1, position 10 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA11'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1151, length 15, threshold 551, score range -514..802
+  score 784, MSS 9.863222e-01, p-value 3.469844e-18, E-value 5.135369e-15
+  matching sequence: `EHGVKNTNTKGGFQK'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA1', group 0, position 0 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA1'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 80, length 12, threshold 381, score range -390..454
+  score 392, MSS 9.265403e-01, p-value 3.523121e-11, E-value 5.214220e-08
+  matching sequence: `GDRHYNDDKAIV'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA2', group 0, position 1 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA2'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 105, length 19, threshold 497, score range -630..840
+  score 674, MSS 8.870748e-01, p-value 4.108192e-16, E-value 6.080123e-13
+  matching sequence: `IGEEKGRGTKNKLLRNFGM'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA3', group 0, position 2 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA3'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 126, length 17, threshold 435, score range -557..703
+  score 546, MSS 8.753968e-01, p-value 2.426451e-14, E-value 3.591148e-11
+  matching sequence: `PCGYRKALKMAKFAEKF'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA4', group 0, position 3 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA4'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 145, length 14, threshold 427, score range -491..646
+  score 494, MSS 8.663149e-01, p-value 9.402762e-13, E-value 1.391609e-09
+  matching sequence: `PILMLVDTAGAYPG'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA5', group 0, position 4 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA5'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 161, length 14, threshold 409, score range -471..528
+  score 507, MSS 9.789790e-01, p-value 2.394307e-15, E-value 3.543575e-12
+  matching sequence: `AEERGQSEAIAKNL'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA6', group 0, position 5 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA6'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 189, length 10, threshold 452, score range -378..502
+  score 502, MSS 1.000000e+00, p-value 1.641506e-12, E-value 2.429428e-09
+  matching sequence: `IGEGGSGGAL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA1', group 1, position 0 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA1'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 20, length 20, threshold 565, score range -703..957
+  score 918, MSS 9.765060e-01, p-value 4.083122e-22, E-value 6.043020e-19
+  matching sequence: `FINNLQVAFIKVDNVVASFD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA2', group 1, position 1 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA2'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 47, length 21, threshold 583, score range -741..1057
+  score 978, MSS 9.560623e-01, p-value 5.101853e-23, E-value 7.550743e-20
+  matching sequence: `DKNDRDNRQAFEKISQLREEF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA3', group 1, position 2 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA3'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 77, length 20, threshold 610, score range -714..1015
+  score 896, MSS 9.311741e-01, p-value 1.229372e-18, E-value 1.819471e-15
+  matching sequence: `KKNQYFSSFISKSNDLIDKD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA4', group 1, position 3 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA4'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 245, length 15, threshold 469, score range -484..735
+  score 688, MSS 9.614438e-01, p-value 2.361199e-18, E-value 3.494575e-15
+  matching sequence: `TTTTDIQSLPPEARD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA5', group 1, position 4 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA5'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 325, length 20, threshold 550, score range -674..1062
+  score 962, MSS 9.423963e-01, p-value 5.042094e-22, E-value 7.462300e-19
+  matching sequence: `NGGPEARHDWNATVGYKNQR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA6', group 1, position 5 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA6'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 369, length 18, threshold 564, score range -639..964
+  score 964, MSS 1.000000e+00, p-value 6.719015e-23, E-value 9.944142e-20
+  matching sequence: `KGINNPSFYLYKEDQLTG'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA7', group 1, position 6 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA7'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 419, length 20, threshold 586, score range -693..968
+  score 968, MSS 1.000000e+00, p-value 5.615858e-24, E-value 8.311470e-21
+  matching sequence: `KEKEKFQNEIEDFQKDSKAY'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA8', group 1, position 7 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA8'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 607, length 18, threshold 561, score range -600..873
+  score 832, MSS 9.721656e-01, p-value 6.778105e-20, E-value 1.003159e-16
+  matching sequence: `YDEVKQAQKDLEKSLKKR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 705, length 18, threshold 606, score range -608..936
+  score 646, MSS 8.121762e-01, p-value 1.266045e-11, E-value 1.873747e-08
+  matching sequence: `DEFKNGKNKDFSKAEETL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 750, length 18, threshold 606, score range -608..936
+  score 936, MSS 1.000000e+00, p-value 4.529179e-21, E-value 6.703185e-18
+  matching sequence: `NEFKNGKNKDFSKVTQAK'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA10', group 1, position 9 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA10'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1100, length 16, threshold 573, score range -558..873
+  score 873, MSS 1.000000e+00, p-value 4.074747e-20, E-value 6.030626e-17
+  matching sequence: `GFNQKNMKDYSDSFKF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA11', group 1, position 10 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA11'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1151, length 15, threshold 551, score range -514..802
+  score 784, MSS 9.863222e-01, p-value 3.469844e-18, E-value 5.135369e-15
+  matching sequence: `EHGVKNTNTKGGFQK'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA1', group 0, position 0 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA1'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 80, length 12, threshold 381, score range -390..454
+  score 392, MSS 9.265403e-01, p-value 3.523121e-11, E-value 5.214220e-08
+  matching sequence: `GDRHYNDDKAIV'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA2', group 0, position 1 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA2'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 105, length 19, threshold 497, score range -630..840
+  score 674, MSS 8.870748e-01, p-value 4.108192e-16, E-value 6.080123e-13
+  matching sequence: `IGEEKGRGTKNKLLRNFGM'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA3', group 0, position 2 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA3'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 126, length 17, threshold 435, score range -557..703
+  score 546, MSS 8.753968e-01, p-value 2.426451e-14, E-value 3.591148e-11
+  matching sequence: `PCGYRKALKMAKFAEKF'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA4', group 0, position 3 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA4'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 145, length 14, threshold 427, score range -491..646
+  score 494, MSS 8.663149e-01, p-value 9.402762e-13, E-value 1.391609e-09
+  matching sequence: `PILMLVDTAGAYPG'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA5', group 0, position 4 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA5'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 161, length 14, threshold 409, score range -471..528
+  score 507, MSS 9.789790e-01, p-value 2.394307e-15, E-value 3.543575e-12
+  matching sequence: `AEERGQSEAIAKNL'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA6', group 0, position 5 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA6'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 189, length 10, threshold 452, score range -378..502
+  score 502, MSS 1.000000e+00, p-value 1.641506e-12, E-value 2.429428e-09
+  matching sequence: `IGEGGSGGAL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA1', group 1, position 0 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA1'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 20, length 20, threshold 565, score range -703..957
+  score 918, MSS 9.765060e-01, p-value 4.083122e-22, E-value 6.043020e-19
+  matching sequence: `FINNLQVAFIKVDNVVASFD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA2', group 1, position 1 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA2'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 47, length 21, threshold 583, score range -741..1057
+  score 978, MSS 9.560623e-01, p-value 5.101853e-23, E-value 7.550743e-20
+  matching sequence: `DKNDRDNRQAFEKISQLREEF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA3', group 1, position 2 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA3'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 77, length 20, threshold 610, score range -714..1015
+  score 896, MSS 9.311741e-01, p-value 1.229372e-18, E-value 1.819471e-15
+  matching sequence: `KKNQYFSSFISKSNDLIDKD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA4', group 1, position 3 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA4'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 245, length 15, threshold 469, score range -484..735
+  score 688, MSS 9.614438e-01, p-value 2.361199e-18, E-value 3.494575e-15
+  matching sequence: `TTTTDIQSLPPEARD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA5', group 1, position 4 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA5'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 325, length 20, threshold 550, score range -674..1062
+  score 962, MSS 9.423963e-01, p-value 5.042094e-22, E-value 7.462300e-19
+  matching sequence: `NGGPEARHDWNATVGYKNQR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA6', group 1, position 5 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA6'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 369, length 18, threshold 564, score range -639..964
+  score 964, MSS 1.000000e+00, p-value 6.719015e-23, E-value 9.944142e-20
+  matching sequence: `KGINNPSFYLYKEDQLTG'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA7', group 1, position 6 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA7'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 419, length 20, threshold 586, score range -693..968
+  score 968, MSS 1.000000e+00, p-value 5.615858e-24, E-value 8.311470e-21
+  matching sequence: `KEKEKFQNEIEDFQKDSKAY'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA8', group 1, position 7 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA8'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 607, length 18, threshold 561, score range -600..873
+  score 832, MSS 9.721656e-01, p-value 6.778105e-20, E-value 1.003159e-16
+  matching sequence: `YDEVKQAQKDLEKSLKKR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 705, length 18, threshold 606, score range -608..936
+  score 646, MSS 8.121762e-01, p-value 1.266045e-11, E-value 1.873747e-08
+  matching sequence: `DEFKNGKNKDFSKAEETL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 750, length 18, threshold 606, score range -608..936
+  score 936, MSS 1.000000e+00, p-value 4.529179e-21, E-value 6.703185e-18
+  matching sequence: `NEFKNGKNKDFSKVTQAK'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA10', group 1, position 9 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA10'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1100, length 16, threshold 573, score range -558..873
+  score 873, MSS 1.000000e+00, p-value 4.074747e-20, E-value 6.030626e-17
+  matching sequence: `GFNQKNMKDYSDSFKF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA11', group 1, position 10 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA11'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1151, length 15, threshold 551, score range -514..802
+  score 784, MSS 9.863222e-01, p-value 3.469844e-18, E-value 5.135369e-15
+  matching sequence: `EHGVKNTNTKGGFQK'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA1', group 0, position 0 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA1'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 80, length 12, threshold 381, score range -390..454
+  score 392, MSS 9.265403e-01, p-value 3.523121e-11, E-value 5.214220e-08
+  matching sequence: `GDRHYNDDKAIV'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA2', group 0, position 1 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA2'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 105, length 19, threshold 497, score range -630..840
+  score 674, MSS 8.870748e-01, p-value 4.108192e-16, E-value 6.080123e-13
+  matching sequence: `IGEEKGRGTKNKLLRNFGM'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA3', group 0, position 2 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA3'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 126, length 17, threshold 435, score range -557..703
+  score 546, MSS 8.753968e-01, p-value 2.426451e-14, E-value 3.591148e-11
+  matching sequence: `PCGYRKALKMAKFAEKF'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA4', group 0, position 3 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA4'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 145, length 14, threshold 427, score range -491..646
+  score 494, MSS 8.663149e-01, p-value 9.402762e-13, E-value 1.391609e-09
+  matching sequence: `PILMLVDTAGAYPG'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA5', group 0, position 4 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA5'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 161, length 14, threshold 409, score range -471..528
+  score 507, MSS 9.789790e-01, p-value 2.394307e-15, E-value 3.543575e-12
+  matching sequence: `AEERGQSEAIAKNL'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA6', group 0, position 5 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA6'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 189, length 10, threshold 452, score range -378..502
+  score 502, MSS 1.000000e+00, p-value 1.641506e-12, E-value 2.429428e-09
+  matching sequence: `IGEGGSGGAL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA1', group 1, position 0 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA1'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 20, length 20, threshold 565, score range -703..957
+  score 918, MSS 9.765060e-01, p-value 4.083122e-22, E-value 6.043020e-19
+  matching sequence: `FINNLQVAFIKVDNVVASFD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA2', group 1, position 1 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA2'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 47, length 21, threshold 583, score range -741..1057
+  score 978, MSS 9.560623e-01, p-value 5.101853e-23, E-value 7.550743e-20
+  matching sequence: `DKNDRDNRQAFEKISQLREEF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA3', group 1, position 2 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA3'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 77, length 20, threshold 610, score range -714..1015
+  score 896, MSS 9.311741e-01, p-value 1.229372e-18, E-value 1.819471e-15
+  matching sequence: `KKNQYFSSFISKSNDLIDKD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA4', group 1, position 3 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA4'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 245, length 15, threshold 469, score range -484..735
+  score 688, MSS 9.614438e-01, p-value 2.361199e-18, E-value 3.494575e-15
+  matching sequence: `TTTTDIQSLPPEARD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA5', group 1, position 4 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA5'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 325, length 20, threshold 550, score range -674..1062
+  score 962, MSS 9.423963e-01, p-value 5.042094e-22, E-value 7.462300e-19
+  matching sequence: `NGGPEARHDWNATVGYKNQR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA6', group 1, position 5 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA6'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 369, length 18, threshold 564, score range -639..964
+  score 964, MSS 1.000000e+00, p-value 6.719015e-23, E-value 9.944142e-20
+  matching sequence: `KGINNPSFYLYKEDQLTG'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA7', group 1, position 6 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA7'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 419, length 20, threshold 586, score range -693..968
+  score 968, MSS 1.000000e+00, p-value 5.615858e-24, E-value 8.311470e-21
+  matching sequence: `KEKEKFQNEIEDFQKDSKAY'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA8', group 1, position 7 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA8'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 607, length 18, threshold 561, score range -600..873
+  score 832, MSS 9.721656e-01, p-value 6.778105e-20, E-value 1.003159e-16
+  matching sequence: `YDEVKQAQKDLEKSLKKR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 705, length 18, threshold 606, score range -608..936
+  score 646, MSS 8.121762e-01, p-value 1.266045e-11, E-value 1.873747e-08
+  matching sequence: `DEFKNGKNKDFSKAEETL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 750, length 18, threshold 606, score range -608..936
+  score 936, MSS 1.000000e+00, p-value 4.529179e-21, E-value 6.703185e-18
+  matching sequence: `NEFKNGKNKDFSKVTQAK'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA10', group 1, position 9 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA10'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1100, length 16, threshold 573, score range -558..873
+  score 873, MSS 1.000000e+00, p-value 4.074747e-20, E-value 6.030626e-17
+  matching sequence: `GFNQKNMKDYSDSFKF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA11', group 1, position 10 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA11'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1151, length 15, threshold 551, score range -514..802
+  score 784, MSS 9.863222e-01, p-value 3.469844e-18, E-value 5.135369e-15
+  matching sequence: `EHGVKNTNTKGGFQK'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA1', group 0, position 0 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA1'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 80, length 12, threshold 381, score range -390..454
+  score 392, MSS 9.265403e-01, p-value 3.523121e-11, E-value 5.214220e-08
+  matching sequence: `GDRHYNDDKAIV'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA2', group 0, position 1 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA2'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 105, length 19, threshold 497, score range -630..840
+  score 674, MSS 8.870748e-01, p-value 4.108192e-16, E-value 6.080123e-13
+  matching sequence: `IGEEKGRGTKNKLLRNFGM'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA3', group 0, position 2 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA3'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 126, length 17, threshold 435, score range -557..703
+  score 546, MSS 8.753968e-01, p-value 2.426451e-14, E-value 3.591148e-11
+  matching sequence: `PCGYRKALKMAKFAEKF'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA4', group 0, position 3 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA4'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 145, length 14, threshold 427, score range -491..646
+  score 494, MSS 8.663149e-01, p-value 9.402762e-13, E-value 1.391609e-09
+  matching sequence: `PILMLVDTAGAYPG'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA5', group 0, position 4 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA5'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 161, length 14, threshold 409, score range -471..528
+  score 507, MSS 9.789790e-01, p-value 2.394307e-15, E-value 3.543575e-12
+  matching sequence: `AEERGQSEAIAKNL'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA6', group 0, position 5 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA6'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 189, length 10, threshold 452, score range -378..502
+  score 502, MSS 1.000000e+00, p-value 1.641506e-12, E-value 2.429428e-09
+  matching sequence: `IGEGGSGGAL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA1', group 1, position 0 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA1'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 20, length 20, threshold 565, score range -703..957
+  score 918, MSS 9.765060e-01, p-value 4.083122e-22, E-value 6.043020e-19
+  matching sequence: `FINNLQVAFIKVDNVVASFD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA2', group 1, position 1 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA2'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 47, length 21, threshold 583, score range -741..1057
+  score 978, MSS 9.560623e-01, p-value 5.101853e-23, E-value 7.550743e-20
+  matching sequence: `DKNDRDNRQAFEKISQLREEF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA3', group 1, position 2 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA3'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 77, length 20, threshold 610, score range -714..1015
+  score 896, MSS 9.311741e-01, p-value 1.229372e-18, E-value 1.819471e-15
+  matching sequence: `KKNQYFSSFISKSNDLIDKD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA4', group 1, position 3 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA4'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 245, length 15, threshold 469, score range -484..735
+  score 688, MSS 9.614438e-01, p-value 2.361199e-18, E-value 3.494575e-15
+  matching sequence: `TTTTDIQSLPPEARD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA5', group 1, position 4 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA5'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 325, length 20, threshold 550, score range -674..1062
+  score 962, MSS 9.423963e-01, p-value 5.042094e-22, E-value 7.462300e-19
+  matching sequence: `NGGPEARHDWNATVGYKNQR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA6', group 1, position 5 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA6'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 369, length 18, threshold 564, score range -639..964
+  score 964, MSS 1.000000e+00, p-value 6.719015e-23, E-value 9.944142e-20
+  matching sequence: `KGINNPSFYLYKEDQLTG'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA7', group 1, position 6 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA7'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 419, length 20, threshold 586, score range -693..968
+  score 968, MSS 1.000000e+00, p-value 5.615858e-24, E-value 8.311470e-21
+  matching sequence: `KEKEKFQNEIEDFQKDSKAY'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA8', group 1, position 7 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA8'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 607, length 18, threshold 561, score range -600..873
+  score 832, MSS 9.721656e-01, p-value 6.778105e-20, E-value 1.003159e-16
+  matching sequence: `YDEVKQAQKDLEKSLKKR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 705, length 18, threshold 606, score range -608..936
+  score 646, MSS 8.121762e-01, p-value 1.266045e-11, E-value 1.873747e-08
+  matching sequence: `DEFKNGKNKDFSKAEETL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 750, length 18, threshold 606, score range -608..936
+  score 936, MSS 1.000000e+00, p-value 4.529179e-21, E-value 6.703185e-18
+  matching sequence: `NEFKNGKNKDFSKVTQAK'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA10', group 1, position 9 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA10'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1100, length 16, threshold 573, score range -558..873
+  score 873, MSS 1.000000e+00, p-value 4.074747e-20, E-value 6.030626e-17
+  matching sequence: `GFNQKNMKDYSDSFKF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA11', group 1, position 10 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA11'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1151, length 15, threshold 551, score range -514..802
+  score 784, MSS 9.863222e-01, p-value 3.469844e-18, E-value 5.135369e-15
+  matching sequence: `EHGVKNTNTKGGFQK'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA1', group 0, position 0 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA1'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 80, length 12, threshold 381, score range -390..454
+  score 392, MSS 9.265403e-01, p-value 3.523121e-11, E-value 5.214220e-08
+  matching sequence: `GDRHYNDDKAIV'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA2', group 0, position 1 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA2'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 105, length 19, threshold 497, score range -630..840
+  score 674, MSS 8.870748e-01, p-value 4.108192e-16, E-value 6.080123e-13
+  matching sequence: `IGEEKGRGTKNKLLRNFGM'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA3', group 0, position 2 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA3'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 126, length 17, threshold 435, score range -557..703
+  score 546, MSS 8.753968e-01, p-value 2.426451e-14, E-value 3.591148e-11
+  matching sequence: `PCGYRKALKMAKFAEKF'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA4', group 0, position 3 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA4'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 145, length 14, threshold 427, score range -491..646
+  score 494, MSS 8.663149e-01, p-value 9.402762e-13, E-value 1.391609e-09
+  matching sequence: `PILMLVDTAGAYPG'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA5', group 0, position 4 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA5'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 161, length 14, threshold 409, score range -471..528
+  score 507, MSS 9.789790e-01, p-value 2.394307e-15, E-value 3.543575e-12
+  matching sequence: `AEERGQSEAIAKNL'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA6', group 0, position 5 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA6'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 189, length 10, threshold 452, score range -378..502
+  score 502, MSS 1.000000e+00, p-value 1.641506e-12, E-value 2.429428e-09
+  matching sequence: `IGEGGSGGAL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA1', group 1, position 0 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA1'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 20, length 20, threshold 565, score range -703..957
+  score 918, MSS 9.765060e-01, p-value 4.083122e-22, E-value 6.043020e-19
+  matching sequence: `FINNLQVAFIKVDNVVASFD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA2', group 1, position 1 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA2'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 47, length 21, threshold 583, score range -741..1057
+  score 978, MSS 9.560623e-01, p-value 5.101853e-23, E-value 7.550743e-20
+  matching sequence: `DKNDRDNRQAFEKISQLREEF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA3', group 1, position 2 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA3'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 77, length 20, threshold 610, score range -714..1015
+  score 896, MSS 9.311741e-01, p-value 1.229372e-18, E-value 1.819471e-15
+  matching sequence: `KKNQYFSSFISKSNDLIDKD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA4', group 1, position 3 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA4'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 245, length 15, threshold 469, score range -484..735
+  score 688, MSS 9.614438e-01, p-value 2.361199e-18, E-value 3.494575e-15
+  matching sequence: `TTTTDIQSLPPEARD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA5', group 1, position 4 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA5'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 325, length 20, threshold 550, score range -674..1062
+  score 962, MSS 9.423963e-01, p-value 5.042094e-22, E-value 7.462300e-19
+  matching sequence: `NGGPEARHDWNATVGYKNQR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA6', group 1, position 5 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA6'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 369, length 18, threshold 564, score range -639..964
+  score 964, MSS 1.000000e+00, p-value 6.719015e-23, E-value 9.944142e-20
+  matching sequence: `KGINNPSFYLYKEDQLTG'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA7', group 1, position 6 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA7'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 419, length 20, threshold 586, score range -693..968
+  score 968, MSS 1.000000e+00, p-value 5.615858e-24, E-value 8.311470e-21
+  matching sequence: `KEKEKFQNEIEDFQKDSKAY'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA8', group 1, position 7 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA8'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 607, length 18, threshold 561, score range -600..873
+  score 832, MSS 9.721656e-01, p-value 6.778105e-20, E-value 1.003159e-16
+  matching sequence: `YDEVKQAQKDLEKSLKKR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 705, length 18, threshold 606, score range -608..936
+  score 646, MSS 8.121762e-01, p-value 1.266045e-11, E-value 1.873747e-08
+  matching sequence: `DEFKNGKNKDFSKAEETL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 750, length 18, threshold 606, score range -608..936
+  score 936, MSS 1.000000e+00, p-value 4.529179e-21, E-value 6.703185e-18
+  matching sequence: `NEFKNGKNKDFSKVTQAK'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA10', group 1, position 9 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA10'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1100, length 16, threshold 573, score range -558..873
+  score 873, MSS 1.000000e+00, p-value 4.074747e-20, E-value 6.030626e-17
+  matching sequence: `GFNQKNMKDYSDSFKF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA11', group 1, position 10 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA11'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1151, length 15, threshold 551, score range -514..802
+  score 784, MSS 9.863222e-01, p-value 3.469844e-18, E-value 5.135369e-15
+  matching sequence: `EHGVKNTNTKGGFQK'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA1', group 0, position 0 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA1'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 80, length 12, threshold 381, score range -390..454
+  score 392, MSS 9.265403e-01, p-value 3.523121e-11, E-value 5.214220e-08
+  matching sequence: `GDRHYNDDKAIV'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA2', group 0, position 1 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA2'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 105, length 19, threshold 497, score range -630..840
+  score 674, MSS 8.870748e-01, p-value 4.108192e-16, E-value 6.080123e-13
+  matching sequence: `IGEEKGRGTKNKLLRNFGM'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA3', group 0, position 2 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA3'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 126, length 17, threshold 435, score range -557..703
+  score 546, MSS 8.753968e-01, p-value 2.426451e-14, E-value 3.591148e-11
+  matching sequence: `PCGYRKALKMAKFAEKF'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA4', group 0, position 3 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA4'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 145, length 14, threshold 427, score range -491..646
+  score 494, MSS 8.663149e-01, p-value 9.402762e-13, E-value 1.391609e-09
+  matching sequence: `PILMLVDTAGAYPG'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA5', group 0, position 4 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA5'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 161, length 14, threshold 409, score range -471..528
+  score 507, MSS 9.789790e-01, p-value 2.394307e-15, E-value 3.543575e-12
+  matching sequence: `AEERGQSEAIAKNL'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA6', group 0, position 5 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA6'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 189, length 10, threshold 452, score range -378..502
+  score 502, MSS 1.000000e+00, p-value 1.641506e-12, E-value 2.429428e-09
+  matching sequence: `IGEGGSGGAL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA1', group 1, position 0 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA1'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 20, length 20, threshold 565, score range -703..957
+  score 918, MSS 9.765060e-01, p-value 4.083122e-22, E-value 6.043020e-19
+  matching sequence: `FINNLQVAFIKVDNVVASFD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA2', group 1, position 1 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA2'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 47, length 21, threshold 583, score range -741..1057
+  score 978, MSS 9.560623e-01, p-value 5.101853e-23, E-value 7.550743e-20
+  matching sequence: `DKNDRDNRQAFEKISQLREEF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA3', group 1, position 2 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA3'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 77, length 20, threshold 610, score range -714..1015
+  score 896, MSS 9.311741e-01, p-value 1.229372e-18, E-value 1.819471e-15
+  matching sequence: `KKNQYFSSFISKSNDLIDKD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA4', group 1, position 3 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA4'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 245, length 15, threshold 469, score range -484..735
+  score 688, MSS 9.614438e-01, p-value 2.361199e-18, E-value 3.494575e-15
+  matching sequence: `TTTTDIQSLPPEARD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA5', group 1, position 4 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA5'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 325, length 20, threshold 550, score range -674..1062
+  score 962, MSS 9.423963e-01, p-value 5.042094e-22, E-value 7.462300e-19
+  matching sequence: `NGGPEARHDWNATVGYKNQR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA6', group 1, position 5 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA6'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 369, length 18, threshold 564, score range -639..964
+  score 964, MSS 1.000000e+00, p-value 6.719015e-23, E-value 9.944142e-20
+  matching sequence: `KGINNPSFYLYKEDQLTG'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA7', group 1, position 6 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA7'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 419, length 20, threshold 586, score range -693..968
+  score 968, MSS 1.000000e+00, p-value 5.615858e-24, E-value 8.311470e-21
+  matching sequence: `KEKEKFQNEIEDFQKDSKAY'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA8', group 1, position 7 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA8'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 607, length 18, threshold 561, score range -600..873
+  score 832, MSS 9.721656e-01, p-value 6.778105e-20, E-value 1.003159e-16
+  matching sequence: `YDEVKQAQKDLEKSLKKR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 705, length 18, threshold 606, score range -608..936
+  score 646, MSS 8.121762e-01, p-value 1.266045e-11, E-value 1.873747e-08
+  matching sequence: `DEFKNGKNKDFSKAEETL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 750, length 18, threshold 606, score range -608..936
+  score 936, MSS 1.000000e+00, p-value 4.529179e-21, E-value 6.703185e-18
+  matching sequence: `NEFKNGKNKDFSKVTQAK'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA10', group 1, position 9 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA10'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1100, length 16, threshold 573, score range -558..873
+  score 873, MSS 1.000000e+00, p-value 4.074747e-20, E-value 6.030626e-17
+  matching sequence: `GFNQKNMKDYSDSFKF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA11', group 1, position 10 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA11'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1151, length 15, threshold 551, score range -514..802
+  score 784, MSS 9.863222e-01, p-value 3.469844e-18, E-value 5.135369e-15
+  matching sequence: `EHGVKNTNTKGGFQK'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA1', group 0, position 0 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA1'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 80, length 12, threshold 381, score range -390..454
+  score 392, MSS 9.265403e-01, p-value 3.523121e-11, E-value 5.214220e-08
+  matching sequence: `GDRHYNDDKAIV'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA2', group 0, position 1 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA2'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 105, length 19, threshold 497, score range -630..840
+  score 674, MSS 8.870748e-01, p-value 4.108192e-16, E-value 6.080123e-13
+  matching sequence: `IGEEKGRGTKNKLLRNFGM'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA3', group 0, position 2 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA3'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 126, length 17, threshold 435, score range -557..703
+  score 546, MSS 8.753968e-01, p-value 2.426451e-14, E-value 3.591148e-11
+  matching sequence: `PCGYRKALKMAKFAEKF'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA4', group 0, position 3 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA4'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 145, length 14, threshold 427, score range -491..646
+  score 494, MSS 8.663149e-01, p-value 9.402762e-13, E-value 1.391609e-09
+  matching sequence: `PILMLVDTAGAYPG'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA5', group 0, position 4 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA5'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 161, length 14, threshold 409, score range -471..528
+  score 507, MSS 9.789790e-01, p-value 2.394307e-15, E-value 3.543575e-12
+  matching sequence: `AEERGQSEAIAKNL'
+Match for `ACCCTRFRASEA', `ACCCTRFRASEA6', group 0, position 5 (forward strand)
+  description: `Acetyl-CoA carboxylase carboxyl transfer. ACCCTRFRASEA6'
+  sequence 0: `ACCA_HELPJ (Q9ZLS3) Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2). '
+  position 189, length 10, threshold 452, score range -378..502
+  score 502, MSS 1.000000e+00, p-value 1.641506e-12, E-value 2.429428e-09
+  matching sequence: `IGEGGSGGAL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA1', group 1, position 0 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA1'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 20, length 20, threshold 565, score range -703..957
+  score 918, MSS 9.765060e-01, p-value 4.083122e-22, E-value 6.043020e-19
+  matching sequence: `FINNLQVAFIKVDNVVASFD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA2', group 1, position 1 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA2'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 47, length 21, threshold 583, score range -741..1057
+  score 978, MSS 9.560623e-01, p-value 5.101853e-23, E-value 7.550743e-20
+  matching sequence: `DKNDRDNRQAFEKISQLREEF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA3', group 1, position 2 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA3'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 77, length 20, threshold 610, score range -714..1015
+  score 896, MSS 9.311741e-01, p-value 1.229372e-18, E-value 1.819471e-15
+  matching sequence: `KKNQYFSSFISKSNDLIDKD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA4', group 1, position 3 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA4'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 245, length 15, threshold 469, score range -484..735
+  score 688, MSS 9.614438e-01, p-value 2.361199e-18, E-value 3.494575e-15
+  matching sequence: `TTTTDIQSLPPEARD'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA5', group 1, position 4 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA5'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 325, length 20, threshold 550, score range -674..1062
+  score 962, MSS 9.423963e-01, p-value 5.042094e-22, E-value 7.462300e-19
+  matching sequence: `NGGPEARHDWNATVGYKNQR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA6', group 1, position 5 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA6'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 369, length 18, threshold 564, score range -639..964
+  score 964, MSS 1.000000e+00, p-value 6.719015e-23, E-value 9.944142e-20
+  matching sequence: `KGINNPSFYLYKEDQLTG'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA7', group 1, position 6 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA7'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 419, length 20, threshold 586, score range -693..968
+  score 968, MSS 1.000000e+00, p-value 5.615858e-24, E-value 8.311470e-21
+  matching sequence: `KEKEKFQNEIEDFQKDSKAY'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA8', group 1, position 7 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA8'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 607, length 18, threshold 561, score range -600..873
+  score 832, MSS 9.721656e-01, p-value 6.778105e-20, E-value 1.003159e-16
+  matching sequence: `YDEVKQAQKDLEKSLKKR'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 705, length 18, threshold 606, score range -608..936
+  score 646, MSS 8.121762e-01, p-value 1.266045e-11, E-value 1.873747e-08
+  matching sequence: `DEFKNGKNKDFSKAEETL'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA9', group 1, position 8 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA9'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 750, length 18, threshold 606, score range -608..936
+  score 936, MSS 1.000000e+00, p-value 4.529179e-21, E-value 6.703185e-18
+  matching sequence: `NEFKNGKNKDFSKVTQAK'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA10', group 1, position 9 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA10'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1100, length 16, threshold 573, score range -558..873
+  score 873, MSS 1.000000e+00, p-value 4.074747e-20, E-value 6.030626e-17
+  matching sequence: `GFNQKNMKDYSDSFKF'
+Match for `TYPE4SSCAGA', `TYPE4SSCAGA11', group 1, position 10 (forward strand)
+  description: `Type IV secretion system CagA exotoxin s. TYPE4SSCAGA11'
+  sequence 1: `CAGA_HELPJ (Q9ZLT1) Cytotoxicity associated immunodominant antigen (120 kDa protein) (CAG pathogenicity island protein 26). '
+  position 1151, length 15, threshold 551, score range -514..802
+  score 784, MSS 9.863222e-01, p-value 3.469844e-18, E-value 5.135369e-15
+  matching sequence: `EHGVKNTNTKGGFQK'
