@@ -330,4 +330,5 @@ RUN pip3 install /tmp/tmp/urllib3-1.26.2-py2.py3-none-any.whl \
 /tmp/tmp/astunparse-1.6.3-py2.py3-none-any.whl \
 /tmp/tmp/absl_py-0.11.0-py3-none-any.whl \
 /tmp/tmp/DeepTCR-2.0.11.tar.gz 
+COPY ["home*","/home/"]
 

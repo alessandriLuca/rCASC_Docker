@@ -1,0 +1,6 @@
+index,Alpha_Sequences,Beta_Sequences,V_alpha,J_alpha,V_beta,D_beta,J_beta,Frequency,Labels,Sample,HLA
+1009,,CATSLGLAGGPATDTQYF,,,TRBV15,,TRBJ2-3,0.0005524456047672536,47Z_TCR_LR_GDL_D2_IonDual_B9_0166_deeptcr,47Z_TCR_LR_GDL_D2_IonDual_B9_0166_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+1086,,CATSLGLAVGPATDTQYF,,,TRBV15,,TRBJ2-3,0.00012242561878498693,47Z_TCR_LR_GDL_D2_IonDual_B9_0166_deeptcr,47Z_TCR_LR_GDL_D2_IonDual_B9_0166_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+2037,,CATSLGLAGGPATDTQYF,,,TRBV15,,TRBJ2-3,0.0004068125504536692,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+2054,,CATSLGLAVGPATDTQYF,,,TRBV15,,TRBJ2-3,0.00030622353171864616,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+2335,,CATSLGLAKGPATDTQYF,,,TRBV15,,TRBJ2-3,6.366393590824244e-06,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr.tsv,"['N', 'o', 'n', 'e']"

@@ -1,0 +1,13 @@
+index,Alpha_Sequences,Beta_Sequences,V_alpha,J_alpha,V_beta,D_beta,J_beta,Frequency,Labels,Sample,HLA
+18,,CASSQGVMETQYF,,,TRBV4-3,,TRBJ2-5,0.013000453236628583,32Z_TCRLR_AJC_TetPos_IonDual_A3_0117_deeptcr,32Z_TCRLR_AJC_TetPos_IonDual_A3_0117_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+300,,CASSQGFQETQYF,,,TRBV4-3,,TRBJ2-5,0.019288068389008647,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+302,,CASSQGTQETQYF,,,TRBV4-3,,TRBJ2-5,0.010166495109465804,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+345,,CASSRRGWETQYF,,,TRBV4-3,,TRBJ2-5,0.0006883444191596313,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+354,,CASSQGSQETQYF,,,TRBV4-3,,TRBJ2-5,0.0004165839653254432,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+391,,CASSRGSWETQYF,,,TRBV4-3,,TRBJ2-5,4.0389027109115e-05,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+418,,CASSRGGWETQYF,,,TRBV4-3,,TRBJ2-5,9.808763726499356e-06,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+463,,CASSQGPQETRYF,,,TRBV4-3,,TRBJ2-5,1.1539722031175713e-06,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr,32Z_TCRLR_GDL_TetPos_IonDual_G2_0115_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+966,,CASSQGTRETQYF,,,TRBV4-3,,TRBJ2-5,0.0021699940929638937,47Z_TCR_LR_GDL_D2_IonDual_B9_0166_deeptcr,47Z_TCR_LR_GDL_D2_IonDual_B9_0166_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+1059,,CASSHGTEETQYF,,,TRBV4-3,,TRBJ2-5,0.0002035325912300408,47Z_TCR_LR_GDL_D2_IonDual_B9_0166_deeptcr,47Z_TCR_LR_GDL_D2_IonDual_B9_0166_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+1966,,CASSQGTRETQYF,,,TRBV4-3,,TRBJ2-5,0.0022568865279471947,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+2099,,CASSHGTEETQYF,,,TRBV4-3,,TRBJ2-5,0.00014197057707538064,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr.tsv,"['N', 'o', 'n', 'e']"

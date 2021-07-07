@@ -1,0 +1,4 @@
+index,Alpha_Sequences,Beta_Sequences,V_alpha,J_alpha,V_beta,D_beta,J_beta,Frequency,Labels,Sample,HLA
+1025,,CASSEFGSTSGRSDTQYF,,,TRBV2,,TRBJ2-3,0.00038411037893789653,47Z_TCR_LR_GDL_D2_IonDual_B9_0166_deeptcr,47Z_TCR_LR_GDL_D2_IonDual_B9_0166_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+1306,,CASSAITGLAPKDDTQYF,,,TRBV2,,TRBJ2-3,6.320313487548983e-05,56Z_GDL_D14_TETplus_IonDual_C3_0119_deeptcr,56Z_GDL_D14_TETplus_IonDual_C3_0119_deeptcr.tsv,"['N', 'o', 'n', 'e']"
+2029,,CASSEFGSTSGRSDTQYF,,,TRBV2,,TRBJ2-3,0.00044437427263953225,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr,57Z_TCRLR_BC2_TetPos_IonDual_B4_0126_deeptcr.tsv,"['N', 'o', 'n', 'e']"
