@@ -1,4 +1,0 @@
-index,Alpha_Sequences,Beta_Sequences,V_alpha,J_alpha,V_beta,D_beta,J_beta,Frequency,Labels,Sample,HLA
-1300,,CASSQGDSAGQPQHF,,,TRBV4-1,,TRBJ1-5,0.5209782524616206,56Z_GDL_D14_TETplus_IonDual_C3_0119_deeptcr,56Z_GDL_D14_TETplus_IonDual_C3_0119_deeptcr.tsv,"['N', 'o', 'n', 'e']"
-1323,,CACRLLYSAGQPQHF,,,TRBV4-1,,TRBJ1-5,2.8299911138279026e-06,56Z_GDL_D14_TETplus_IonDual_C3_0119_deeptcr,56Z_GDL_D14_TETplus_IonDual_C3_0119_deeptcr.tsv,"['N', 'o', 'n', 'e']"
-1352,,CASSQGDSAGQPQHF,,,TRBV4-1,,TRBJ1-5,6.289273015944006e-05,56Z_GDL_D7_TETplus_IonDual_E3_0121_deeptcr,56Z_GDL_D7_TETplus_IonDual_E3_0121_deeptcr.tsv,"['N', 'o', 'n', 'e']"
