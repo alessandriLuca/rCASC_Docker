@@ -15,10 +15,8 @@ NCLUSTERS=$7
 echo -$NCLUSTERS-
 SEPARATOR=$8
 echo -$SEPARATOR-
-cd /scratch/$MATNAME/$NCLUSTERS
+cd /scratch/
 j="$MATNAME.*"
-cp /scratch/$j /scratch/$MATNAME/
-cp /scratch/$MATNAME/$j . 
 
 echo $j
 REFORMAT="_clustering.output"
@@ -57,6 +55,6 @@ then
 fi
 
 
-Comet /scratch/$MATNAME/$NCLUSTERS/markers.txt /scratch/$MATNAME/$NCLUSTERS/vis.txt /scratch/$MATNAME/$NCLUSTERS/cluster.txt /scratch/$MATNAME/$NCLUSTERS/output -C $THREADS -X $X -K $K -skipvis $SKIPVIS
+Comet /scratch/markers.txt /scratch/vis.txt /scratch/cluster.txt /scratch/output -C $THREADS -X $X -K $K -skipvis $SKIPVIS
 
 chmod -R 777 /scratch 

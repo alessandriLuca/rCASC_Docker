@@ -8,7 +8,7 @@ argv <- parse_args(p)
 
 matrixName=argv$matrixName
 nCluster=argv$nCluster
-setwd(paste("/scratch/",matrixName,"/",nCluster,sep=""))
+setwd("/scratch/")
 
 
 df = read.table("vis.txt", header=TRUE, row.names=1, stringsAsFactors=F)
