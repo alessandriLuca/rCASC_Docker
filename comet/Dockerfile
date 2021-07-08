@@ -48,40 +48,40 @@ RUN cd /Python-3.6.9 && make install
 COPY tmp.7z* /tmp/
 RUN cd /tmp/ && 7za -y x "*.7z*" 
 RUN pip3 install /tmp/tmp/kiwisolver-1.0.1-cp36-cp36m-manylinux1_x86_64.whl \
- pip3 install /tmp/tmp/chardet-3.0.4-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/six-1.11.0-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/cycler-0.10.0-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/pyparsing-2.2.0-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/python_dateutil-2.7.3-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/numpy-1.14.5-cp36-cp36m-manylinux1_x86_64.whl \
- pip3 install /tmp/tmp/matplotlib-3.0.0-cp36-cp36m-manylinux1_x86_64.whl \
- pip3 install /tmp/tmp/scipy-1.1.0-cp36-cp36m-manylinux1_x86_64.whl \
- pip3 install /tmp/tmp/joblib-0.14.1-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/scikit_learn-0.21.0-cp36-cp36m-manylinux1_x86_64.whl \
- pip3 install /tmp/tmp/ipython_genutils-0.2.0-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/decorator-4.3.0-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/traitlets-4.3.2-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/jupyter_core-4.4.0-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/idna-2.7-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/atomicwrites-1.1.5-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/urllib3-1.24.3-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/certifi-2019.11.28-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/requests-2.20.1-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/future-0.16.0.tar.gz \
- pip3 install /tmp/tmp/adjustText-0.7.3.tar.gz \
- pip3 install /tmp/tmp/jsonschema-2.6.0-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/Cython-0.28.4-cp36-cp36m-manylinux1_x86_64.whl \
- pip3 install /tmp/tmp/pytz-2018.5-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/pandas-0.23.3-cp36-cp36m-manylinux1_x86_64.whl \
- pip3 install /tmp/tmp/more_itertools-4.2.0-py3-none-any.whl \
- pip3 install /tmp/tmp/nbformat-4.4.0-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/py-1.5.4-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/plotly-2.7.0.tar.gz \
- pip3 install /tmp/tmp/xlmhg-2.4.9-cp36-cp36m-manylinux1_x86_64.whl \
- pip3 install /tmp/tmp/pluggy-0.6.0-py3-none-any.whl \
- pip3 install /tmp/tmp/attrs-18.1.0-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/pytest-3.6.3-py2.py3-none-any.whl \
- pip3 install /tmp/tmp/COMETSC-0.1.12-py3-none-any.whl \
+&& pip3 install /tmp/tmp/chardet-3.0.4-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/six-1.11.0-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/cycler-0.10.0-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/pyparsing-2.2.0-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/python_dateutil-2.7.3-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/numpy-1.14.5-cp36-cp36m-manylinux1_x86_64.whl \
+&& pip3 install /tmp/tmp/matplotlib-3.0.0-cp36-cp36m-manylinux1_x86_64.whl \
+&& pip3 install /tmp/tmp/scipy-1.1.0-cp36-cp36m-manylinux1_x86_64.whl \
+&& pip3 install /tmp/tmp/joblib-0.14.1-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/scikit_learn-0.21.0-cp36-cp36m-manylinux1_x86_64.whl \
+&& pip3 install /tmp/tmp/ipython_genutils-0.2.0-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/decorator-4.3.0-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/traitlets-4.3.2-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/jupyter_core-4.4.0-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/idna-2.7-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/atomicwrites-1.1.5-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/urllib3-1.24.3-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/certifi-2019.11.28-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/requests-2.20.1-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/future-0.16.0.tar.gz \
+&& pip3 install /tmp/tmp/adjustText-0.7.3.tar.gz \
+&& pip3 install /tmp/tmp/jsonschema-2.6.0-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/Cython-0.28.4-cp36-cp36m-manylinux1_x86_64.whl \
+&& pip3 install /tmp/tmp/pytz-2018.5-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/pandas-0.23.3-cp36-cp36m-manylinux1_x86_64.whl \
+&& pip3 install /tmp/tmp/more_itertools-4.2.0-py3-none-any.whl \
+&& pip3 install /tmp/tmp/nbformat-4.4.0-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/py-1.5.4-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/plotly-2.7.0.tar.gz \
+&& pip3 install /tmp/tmp/xlmhg-2.4.9-cp36-cp36m-manylinux1_x86_64.whl \
+&& pip3 install /tmp/tmp/pluggy-0.6.0-py3-none-any.whl \
+&& pip3 install /tmp/tmp/attrs-18.1.0-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/pytest-3.6.3-py2.py3-none-any.whl \
+&& pip3 install /tmp/tmp/COMETSC-0.1.12-py3-none-any.whl 
 COPY ./cometsc.sh /bin/
 COPY ./vis.R /bin 
 COPY ./log.R /bin
