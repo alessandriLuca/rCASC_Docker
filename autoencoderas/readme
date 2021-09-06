@@ -1,0 +1,4 @@
+dockerfile to be build with R  version 4.1.1
+library("GenomicRanges")
+library("argparser")
+gawk
