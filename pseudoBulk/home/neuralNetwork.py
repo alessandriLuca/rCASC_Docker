@@ -62,6 +62,7 @@ bName = sys.argv[6]
 lrFile = sys.argv[7]
 lossVar = sys.argv[8]
 weight_changer = sys.argv[9]
+permutation = int(sys.argv[10])
 
 lrArray = []
 min_loss = []
@@ -133,13 +134,6 @@ for lr in lrArray:
     pyplot.savefig('./Results/learning_' + str(lr) + '.png')
     pyplot.clf()
 
-    """predict = NN.predict(Atac)
-    ds = pd.DataFrame(predict)
-    ds.index = Atac.index
-    ds.columns = relationMatrix.columns
-    ds.columns = [str(newn) for newn in ds.columns]
-    ds.to_csv('Results/middlePredict_' + str(lr) + '.csv', sep=sep)"""
-
     min_loss.append(min(a.history['loss']))
 
 minimum = float('inf')
@@ -151,19 +145,25 @@ for k in range(len(min_loss)):
 
 NN.load_weights('./Results/BW_' + str(lrArray[tmp]) + '.hdf5')
 
-encoder = Sequential()
-if change_fully:
-    encoder.add(Dense(Atac.shape[1], activation=act_1, name="encoder4", input_shape=(Atac.shape[1],),
-                      kernel_constraint=changeWeightFully()))
-else:
-    encoder.add(Dense(Atac.shape[1], activation=act_1, name="encoder4", input_shape=(Atac.shape[1],)))
-encoder.add(Dense(minFeature, activation=act_2, name="hidden", kernel_constraint=changeWeightEncoding()))
-encoder.layers[0].set_weights(NN.layers[0].get_weights())
-encoder.layers[1].set_weights(NN.layers[1].get_weights())
-Result = encoder.predict(Atac)
+DFexample=pd.DataFrame(columns=Atac.index)
+for nPerm in range(permutation):
+    encoder = Sequential()
+    if change_fully:
+        encoder.add(Dense(Atac.shape[1], activation=act_1, name="encoder4", input_shape=(Atac.shape[1],),
+                          kernel_constraint=changeWeightFully()))
+    else:
+        encoder.add(Dense(Atac.shape[1], activation=act_1, name="encoder4", input_shape=(Atac.shape[1],)))
+    encoder.add(Dense(minFeature, activation=act_2, name="hidden", kernel_constraint=changeWeightEncoding()))
+    encoder.layers[0].set_weights(NN.layers[0].get_weights())
+    encoder.layers[1].set_weights(NN.layers[1].get_weights())
+    Result = encoder.predict(Atac)
 
-ds = pd.DataFrame(Result)
-ds.index = Atac.index
-ds.columns = relationMatrix.columns
-ds.columns = [str(newn) for newn in ds.columns]
-ds.to_csv('Results/denseSpace.csv', sep=sep)
+    ds = pd.DataFrame(Result)
+    ds.index = Atac.index
+    ds.columns = relationMatrix.columns
+    ds.columns = [str(newn) + '.' + str(nPerm) for newn in ds.columns]
+    ds.to_csv('Results/denseSpace_' + str(nPerm) + '.csv', sep=sep)
+    DFexample=DFexample.append(ds.T)
+
+DFexample=DFexample.T
+DFexample.to_csv('Results/permutation_total_' + str(lrArray[tmp]) + '.csv', sep=sep)
