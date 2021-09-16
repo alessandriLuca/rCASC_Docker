@@ -27,7 +27,7 @@ print(group)
 permAnalysisSeuratFD(group,scratch.folder = scratchDef,file=file, nCluster=cluster,separator=sep,sp=0.8)
 result=mean(read.table(paste(cluster.path,"/",cluster,"/",name,"_scoreSum.",format,sep=""),header=FALSE,row.names=1,sep="\t")[,1])
 system(paste("rm -r ",cluster.path,sep=""))
-return(result)
+return(1-result)
 
 }
 
