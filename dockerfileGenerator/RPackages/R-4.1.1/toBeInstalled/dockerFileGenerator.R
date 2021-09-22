@@ -4,7 +4,7 @@ system("cat nohup.out | grep 'installing [*]' > toInstall.txt")
 toInstall=read.table("toInstall.txt")[,5]
 toDownload=read.table("toDownload.txt")[,3]
 if(length(grep("BiocManager",toInstall))!=0){toInstall=toInstall[-grep("BiocManager",toInstall)]}
-if(length(grep("BiocManager",toDownload))!=0){toInstall=toInstall[-grep("BiocManager",toInstall)]}
+if(length(grep("BiocManager",toDownload))!=0){toDownload=toDownload[-grep("BiocManager",toDownload)]}
 
 dir.create("/scratch/packages")
 setwd("./packages")
