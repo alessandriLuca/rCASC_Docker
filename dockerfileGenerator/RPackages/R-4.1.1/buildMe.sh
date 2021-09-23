@@ -6,6 +6,7 @@ if [ $# -eq 0 ]
     exit
 fi
 
+sudo chmod 777 toBeInstalled/1_libraryInstall.sh
 mv Dockerfile_1 Dockerfile
 sudo docker build . -t $1
 sudo docker run -itv $(pwd)/toBeInstalled:/scratch $1 /scratch/1_libraryInstall.sh
