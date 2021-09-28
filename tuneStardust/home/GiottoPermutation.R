@@ -72,7 +72,7 @@ scrat_tmp.folder=scratch.folder
   #executing the docker job
   params <- paste("--cidfile ",data.folder,"/dockerID -v ",scrat_tmp.folder,
     ":/scratch -v ", data.folder, 
-    ":/data -d docker.io/giovannics/giottopermutation Rscript /home/main.R ",
+    ":/data -d docker.io/giovannics/giottopermutationtuning Rscript /home/main.R ",
     filefile," ",h5matrixfile," ",spotpositionsfile," ",n_clusters," ",pcaDimensions,
     " ",nPerm," ",permAtTime," ",percent," ",seed," ",betaStart," ",betaIncrement," ",betaNumber," ",tolerance," ",numinit,sep="")
 
