@@ -20,7 +20,7 @@
 
 GiottoPermutation <- function(group=c("sudo","docker"), scratch.folder,
   file, h5matrix.name,spotpositions.name, n_clusters=10, pcaDimensions=10, 
-  nPerm=80, permAtTime=8, percent=10, seed=1111){
+  nPerm=80, permAtTime=8, percent=10, seed=1111,betaStart=0,betaIncrement=2,betaNumber=50,tolerance=0.1,numinit=100){
   
   data.folder = normalizePath(dirname(file))
   matrixName = strsplit(file,"/",fixed = TRUE)[[1]]
@@ -74,7 +74,7 @@ scrat_tmp.folder=scratch.folder
     ":/scratch -v ", data.folder, 
     ":/data -d docker.io/giovannics/giottopermutation Rscript /home/main.R ",
     filefile," ",h5matrixfile," ",spotpositionsfile," ",n_clusters," ",pcaDimensions,
-    " ",nPerm," ",permAtTime," ",percent," ",seed," ",sep="")
+    " ",nPerm," ",permAtTime," ",percent," ",seed," ",betaStart," ",betaIncrement," ",betaNumber," ",tolerance," ",numinit,sep="")
 
   resultRun <- runDocker(group=group, params=params)
 
