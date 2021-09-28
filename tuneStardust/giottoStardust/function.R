@@ -55,7 +55,7 @@ silhouette=function(nCluster,clustering.output){
 }
 
 clustering=function(matrixName,matrix.h5,positions.csv,n_clusters,pcaDimensions,
-    nPerm,permAtTime,percent,nCluster){
+    nPerm,permAtTime,percent,nCluster,betaStart,betaIncrement,betaNumber,tolerance,numinit){
 
     n_clusters = as.integer(n_clusters)
     pcaDimensions = as.integer(pcaDimensions)
@@ -94,9 +94,9 @@ clustering=function(matrixName,matrix.h5,positions.csv,n_clusters,pcaDimensions,
                                 spatial_genes = my_spatial_genes,
                                 spatial_network_name = 'Delaunay_network',
                                 k = n_clusters,
-                                betas = c(25,1,1),
+                                betas = c(betaStart,betaIncrement,betaNumber),
                                 python_path="/root/miniconda3/bin/python",
-                                output_folder = paste0(hmrf_folder,'/SG_top100_scaled'))
+                                output_folder = paste0(hmrf_folder,'/SG_top100_scaled'),tolerance,numinit)
     my_giotto_object = addHMRF(gobject = my_giotto_object,
                   HMRFoutput = HMRF_spatial_genes,
                   k = n_clusters, betas_to_add = c(25),
