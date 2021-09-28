@@ -1,7 +1,7 @@
 library(rCASC)
 library(GenSA)
 system("service docker start")
-source("/home/stardustPermutation.R")
+source("/home/GiottoPermutation.R")
 source("/home/permAnalysisForStardust.R")
 
 setwd("/scratch")
@@ -15,10 +15,14 @@ scratchDef=scratch
 name=strsplit(basename(file),"\\.")[[1]][1]
 format=strsplit(basename(file),"\\.")[[1]][2]
 prediction=function(x,y){
+  
 StardustPermutation(group, scratch.folder=scratch, 
   file=file, tissuePosition=coordinates, spaceWeight=x,res=y, nPerm=10, permAtTime=10, percent=10, separator=sep, 
   logTen=0, pcaDimensions=5, seed=1111, sparse=FALSE, format="NULL")
-cluster.path <- paste(data.folder=dirname(file), strsplit(basename(file),"\\.")[[1]][1], sep="/")
+
+  
+  
+ cluster.path <- paste(data.folder=dirname(file), strsplit(basename(file),"\\.")[[1]][1], sep="/")
 cluster <- as.numeric(list.dirs(cluster.path, full.names = FALSE, recursive = FALSE))
 print(scratchDef)
 print(file)
@@ -31,8 +35,8 @@ return(1-result)
 
 }
 
-lower=c(0.1,0.1)
-upper=c(1,0.8)
+lower=c(0.1,0.1,torelance-1)
+upper=c(1,0.8,tolerance+1)
 
 out <- GenSA(lower = lower, upper = upper, fn = prediction,control = list(max.call = 100))
 
