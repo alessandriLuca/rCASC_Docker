@@ -52,14 +52,14 @@ my_spatial_genes = km_spatialgenes[1:100]$genes
 
 hmrf_folder = paste0("/scratch/giotto_",suffix,"_out")
 if(!file.exists(hmrf_folder)) dir.create(hmrf_folder, recursive = T)
-HMRF_spatial_genes = doHMRF(gobject = my_giotto_object,
-                            expression_values = 'scaled',
-                            spatial_genes = my_spatial_genes,
-                            spatial_network_name = 'Delaunay_network',
-                            k = n_clusters,
-                            betas = c(25,1,1),
-                            python_path="/root/miniconda3/bin/python",
-                            output_folder = paste0(hmrf_folder,'/SG_top100_scaled'))
+doHMRF(gobject = my_giotto_object,
+                                expression_values = 'scaled',
+                                spatial_genes = my_spatial_genes,
+                                spatial_network_name = 'Delaunay_network',
+                                k = n_clusters,
+                                betas = c(betaStart,betaIncrement,betaNumber),
+                                python_path="/root/miniconda3/bin/python",
+                                output_folder = paste0(hmrf_folder,'/SG_top100_scaled'),tolerance,numinit)
 my_giotto_object = addHMRF(gobject = my_giotto_object,
                 HMRFoutput = HMRF_spatial_genes,
                 k = n_clusters, betas_to_add = c(25),
