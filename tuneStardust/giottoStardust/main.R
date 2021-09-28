@@ -19,6 +19,11 @@ p <- add_argument(p, "nPerm", help="Permutation number for bootstrap algorithm "
 p <- add_argument(p, "permAtTime", help="Number of permutation in parallel")
 p <- add_argument(p, "percent", help="Percentage of cell removed for bootstrap algorithm ")
 p <- add_argument(p, "seed", help="Seed necessary for the reproducibility")
+p <- add_argument(p, "betaStart", help="Seed necessary for the reproducibility")
+p <- add_argument(p, "betaIncrement", help="Seed necessary for the reproducibility")
+p <- add_argument(p, "betaNumber", help="Seed necessary for the reproducibility")
+p <- add_argument(p, "tolerance", help="Seed necessary for the reproducibility")
+p <- add_argument(p, "numinit", help="Seed necessary for the reproducibility")
 
 
 argv <- parse_args(p)
@@ -36,6 +41,11 @@ permAtTime=as.numeric(argv$permAtTime)
 percent=as.numeric(argv$percent)
 seed=as.numeric(argv$seed)
 set.seed(seed)
+betaStart=as.numeric(argv$betaStart)
+betaIncrement=as.numeric(argv$betaIncrement)
+betaNumber=as.numeric(argv$betaNumber)
+tolerance=as.numeric(argv$tolerance)
+numinit=as.numeric(argv$numinit)
 matrixNameBis = strsplit(matrixName,".",fixed = TRUE)[[1]][1]
 dir.create(paste("./../scratch/",matrixNameBis,sep=""))
  
@@ -43,7 +53,7 @@ dir.create(paste("./../scratch/",matrixNameBis,sep=""))
 
 setwd(paste("./../scratch/",matrixNameBis,"/",sep=""))
 nCluster=clustering(matrixName,matrix.h5,positions.csv,n_clusters,pcaDimensions,
-    nPerm,permAtTime,percent,nCluster=0)
+    nPerm,permAtTime,percent,nCluster=0,betaStart,betaIncrement,betaNumber,tolerance,numinit)
 
 
 setwd("./../../../home")
