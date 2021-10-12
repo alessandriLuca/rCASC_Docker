@@ -199,4 +199,5 @@ RUN mkdir -p /data/
 RUN mkdir -p /scratch/
 RUN apt-get update
 RUN apt-get install tree
+	COPY ["pre_processing2.R","/home/"]
 

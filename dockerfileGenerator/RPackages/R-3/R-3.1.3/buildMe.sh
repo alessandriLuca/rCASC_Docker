@@ -9,6 +9,7 @@ fi
 sudo chmod 777 toBeInstalled/1_libraryInstall.sh
 mv Dockerfile_1 Dockerfile
 sudo docker build . -t $1
+cp libraryInstall.R ./toBeInstalled/
 sudo docker run -itv $(pwd)/toBeInstalled:/scratch $1 /scratch/1_libraryInstall.sh
 mv Dockerfile Dockerfile_1
 mv Dockerfile_2 Dockerfile
