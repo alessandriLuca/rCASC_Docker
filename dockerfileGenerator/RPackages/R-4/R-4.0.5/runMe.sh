@@ -8,7 +8,7 @@ fi
 
 sudo chmod 777 toBeInstalled/1_libraryInstall.sh
 mv Dockerfile_1 Dockerfile
-sudo docker rmi -f temp
+sudo docker rmi -f $1
 sudo docker build . -t $1
 cp configurationFile.R ./toBeInstalled/libraryInstall.R
 sudo docker run -itv $(pwd)/toBeInstalled:/scratch $1 /scratch/1_libraryInstall.sh

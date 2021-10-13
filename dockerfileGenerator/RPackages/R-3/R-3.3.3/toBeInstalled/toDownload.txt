@@ -1,0 +1,2 @@
+trying URL 'http://cran.us.r-project.org/src/contrib/Rcpp_1.0.7.tar.gz'
+trying URL 'http://cran.us.r-project.org/src/contrib/Rtsne_0.15.tar.gz'
