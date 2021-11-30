@@ -6,6 +6,7 @@
 #' @param geneList, a character string indicating the path of the geneList matrix (no header, no row names)
 #' @param separator, separator used in count file, e.g. '\\t', ','
 #' @param k, number of soft labels to divide the density
+#' @param maxit, number of max iteration
 #' @author Luca Alessandri, alessandri [dot] luca1991 [at] gmail [dot] com, University of Torino
 #'
 #' @return plot
@@ -14,7 +15,7 @@
 #'dir.create("scratch")
 #'geneVisualization(group=c("sudo"), scratch.folder=paste(getwd(),"/scratch",sep=""), file=paste(getwd(),"/setA.csv",sep=""),geneList=paste(getwd(),"/geneList.csv",sep=""),separator=",",k=2){
 #' @export
-mixmodels <- function(group=c("sudo","docker"), scratch.folder, file,geneList,separator,k){
+mixmodels <- function(group=c("sudo","docker"), scratch.folder, file,geneList,separator,k,maxit=10000){
 
   data.folder1=dirname(file)
 positions1=length(strsplit(basename(file),"\\.")[[1]])
@@ -70,7 +71,7 @@ system(paste("cp ",file," ",scrat_tmp.folder,"/",sep=""))
 system(paste("cp ",geneList," ",scrat_tmp.folder,"/",sep=""))
 
   #executing the docker job
-    params <- paste("--cidfile ",data.folder1,"/dockerID -v ",scrat_tmp.folder,":/scratch -v ", data.folder1, ":/data -d repbioinfo/mixturemodels Rscript /home/main.R ",basename(file)," ",separator," ",basename(geneList)," ",k,sep="")
+    params <- paste("--cidfile ",data.folder1,"/dockerID -v ",scrat_tmp.folder,":/scratch -v ", data.folder1, ":/data -d repbioinfo/mixturemodels Rscript /home/main.R ",basename(file)," ",separator," ",basename(geneList)," ",k," ",maxit,sep="")
 
 resultRun <- runDocker(group=group, params=params)
 

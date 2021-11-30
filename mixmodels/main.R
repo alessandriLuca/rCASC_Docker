@@ -14,7 +14,8 @@ p <- add_argument(p, "matrixName", help="matrix count name")
 p <- add_argument(p, "separator", help="matrix separator ")
 p <- add_argument(p, "geneList", help="matrix separator ")
 p <- add_argument(p, "k", help="matrix separator ")
-
+p <- add_argument(p, "maxit", help="matrix separator ")
+#maxit=10000
 
 argv <- parse_args(p)
 
@@ -24,6 +25,7 @@ geneList=argv$geneList
 k=as.numeric(argv$k)
 setwd("/scratch")
 if(separator=="tab"){separator="\t"} #BUG CORRECTION TAB PROBLEM
+maxit=as.numeric(argv$maxit)
 
 
 name=tools::file_path_sans_ext(matrixName)
@@ -42,7 +44,7 @@ p <- ggplot(mainMatrix2D, aes(x = metaGene)) +
 p
 cc=rainbow(k)
 dev.off()
-mixmdl <- normalmixEM(mainMatrix2, k = k)
+mixmdl <- normalmixEM(mainMatrix2, k = k,maxit=maxit)
 a = data.frame(x = mixmdl$x) %>%
  ggplot() +
  geom_histogram(aes(x, ..density..), binwidth = 1, colour = "black",
@@ -57,6 +59,9 @@ pdf(paste(name,"_softLabels.pdf",sep=""))
 a
 dev.off()
 
+pdf(paste(name,"_convergence.pdf",sep=""))
+plot(mixmdl$all.loglik,type="l",main="Observed Data Log−Likelihood",xlab="iteration",ylab="Log−Likelihood")
+dev.off()
  post.df <- as.data.frame(cbind(x = mixmdl$x, mixmdl$posterior))
  rownames(post.df)=colnames(mainMatrix)
 write.table(post.df,"probability_cluster.csv",sep=",",col.names=NA,quote=FALSE)
